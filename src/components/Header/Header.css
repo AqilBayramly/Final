@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.poco__logo{
+    width: 172px;
+    height: 57px;
+    margin-left: 15px;
+}
+
+.fa-bars{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.hamburger__logo{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+    display: flex;
+
+}
+
+.search__input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0 0.9375rem;
+    color: rgb(108, 117, 125);
+}
+
+form{
+    padding: 0.1875rem;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 62.5rem;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    width: 500px;
+    height: 45px;
+}
+
+.search__icon{
+    font-size: .70em;
+    border-radius: 62.5rem;
+    border: none;
+    color: #000;
+    background-color: rgb(255, 182, 16);
+    padding: 0.9375rem 0.9375rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass{
+    font-size: 15px;
+
+}
+
+.dropdown__menu{
+    max-width: 50%;
+}
+
+.category{
+    border: none;
+    padding: 0 0.9375rem;
+    border-right: 1px solid rgb(221, 221, 221);
+    appearance: none;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.compare__wishlist{
+    display: flex;
+    flex-direction: column;
+}
+
+.compare__wishlist>div>a{
+    text-decoration: none;
+    color: rgb(108, 117, 125);
+
+}
+
+.bag{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.bag__shopping{
+    font-size: 40px;
+
+}
+
+.price__text>span{
+    color: rgb(255, 182, 16);
+}
+
+.price__text>p{
+    font-weight: bold;
+}

@@ -1,6 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.yellow__line{
+    background-color: rgb(255, 182, 16);
+    height: 60px;
+    display: flex;
+    justify-content: start;
 }
 
+.shop__Category{
+    background-color: rgb(36, 40, 40);
+    height: 60px;
+    width: 300px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.dropdown{
+    width: 300px;
+}
+.dropdown-menu{
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+}
