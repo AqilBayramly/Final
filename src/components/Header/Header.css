@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1250px;
-    margin: 0 auto;
+    text-decoration: none !important;
 }
 
 .poco__logo{
@@ -26,7 +25,10 @@ header{
     padding-top: 1.375rem;
     padding-bottom: 1.375rem;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .search__input{
@@ -34,6 +36,7 @@ header{
     width: 100%;
     height: 100%;
     border: none;
+    border-left: 1px solid gray;
     padding: 0 0.9375rem;
     color: rgb(108, 117, 125);
 }
@@ -65,21 +68,16 @@ form{
 
 }
 
-.dropdown__menu{
-    max-width: 50%;
-}
-
 .category{
     border: none;
     padding: 0 0.9375rem;
-    border-right: 1px solid rgb(221, 221, 221);
-    appearance: none;
     cursor: pointer;
-    height: 100%;
     width: 100%;
+    height: 100%;
     line-height: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .compare__wishlist{
@@ -103,11 +101,25 @@ form{
     font-size: 40px;
 
 }
-
+.price__text{
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    display: flex;
+}
 .price__text>span{
     color: rgb(255, 182, 16);
 }
 
 .price__text>p{
+    word-break: keep-all;
     font-weight: bold;
+    white-space: nowrap;
+}
+.header__dropdown__menu{
+    width: 160px;
+}
+.header__dropdown__menu  .dropdown-item{
+    white-space: pre-wrap;
+    width: 150px;
 }
