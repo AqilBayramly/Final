@@ -1,6 +1,23 @@
 .gray__line{
-    background-color: red;
-    /* background-color: rgb(242, 242, 245); */
+    background-color: rgb(242, 242, 245);
     height: 380px;
     margin-top: 45px;
+}
+
+.gray__line>h4{
+    padding-top:70px;
+    margin-bottom: 2.125rem;
+    text-align: center;
+    color: rgb(33, 37, 41);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.shop__category__swiper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.SwiperSlide{
+    background-color: yellow;
 }

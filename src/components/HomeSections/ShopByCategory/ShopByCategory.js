@@ -16,6 +16,8 @@ function ShopByCategory() {
         <div className='gray__line'>
             <h4>Shop by category</h4>
             <>
+            <div className='shop__category__swiper'>
+
       <Swiper
         slidesPerView={6}
         centeredSlides={true}
@@ -35,34 +37,41 @@ function ShopByCategory() {
         </SwiperSlide>
         <SwiperSlide>
           <a href='#!'>
-            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/5-132x132.webp'></img>
+            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/1-132x132.webp'></img>
           </a>
-        </SwiperSlide>        <SwiperSlide>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href='#!'>
-            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/5-132x132.webp'></img>
+            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/7-132x132.webp'></img>
           </a>
-        </SwiperSlide>        <SwiperSlide>
-          <a href='#!'>
-            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/5-132x132.webp'></img>
-          </a>
-        </SwiperSlide>        <SwiperSlide>
-          <a href='#!'>
-            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/5-132x132.webp'></img>
-          </a>
-        </SwiperSlide>        <SwiperSlide>
-          <a href='#!'>
-            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/5-132x132.webp'></img>
-          </a>
-        </SwiperSlide>        <SwiperSlide>
-          <a href='#!'>
-            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/5-132x132.webp'></img>
-          </a>
-        </SwiperSlide>        <SwiperSlide>
+        </SwiperSlide>
+        <SwiperSlide>
           <a href='#!'>
             <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/5-132x132.webp'></img>
           </a>
         </SwiperSlide>
+        <SwiperSlide>
+          <a href='#!'>
+            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/8-132x132.webp'></img>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href='#!'>
+            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/9-132x132.webp'></img>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href='#!'>
+            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/6-132x132.webp'></img>
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href='#!'>
+            <img alt='...' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/category/7-132x132.webp'></img>
+          </a>
+        </SwiperSlide>
       </Swiper>
+        </div>
     </>
 
         </div>
