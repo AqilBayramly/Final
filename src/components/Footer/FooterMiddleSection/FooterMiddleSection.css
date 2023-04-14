@@ -1,0 +1,58 @@
+.footer__alltext{
+    display: flex;
+    text-decoration: none;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(33, 33, 33);
+}
+
+.footer__alltext>div>p>a{
+    color: rgb(119, 119, 119);
+}
+
+.footer__alltext>div>h6{
+    color: white;
+}
+
+.footer__about{
+    width: 380px;
+    border-right: 1px solid rgb(33, 33, 33);
+
+}
+
+.footer__about>p{
+    color: rgb(119, 119, 119);
+    width: 350px;
+}
+
+.touch{
+    text-align: center;
+    width: 350px;
+
+}
+
+.touch>p{
+    color: rgb(119, 119, 119);
+
+}
+
+.my__account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    border-right: 1px solid rgb(33, 33, 33);
+
+}
+
+.quick__links{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    text-align: center;
+    border-right: 1px solid rgb(33, 33, 33);
+}
+
+.touch>p>i{
+    padding-right: 10px;
+}

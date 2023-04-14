@@ -17,10 +17,9 @@
     display: flex;
     justify-content: space-between;
     padding-left: 60px;
-
 }
 
-.fa-circle-chevron-down{
+.fa-circle-chevron-down {
     font-size: 20px;
 }
 
@@ -44,16 +43,22 @@
     font-size: 1.125em;
     font-weight: 700;
 }
-.nav>a:hover{
+
+.nav>a:hover {
     color: white;
     background-color: rgb(36, 40, 40);
 }
+
 .dropdown__category .dropdown-item {
     white-space: pre-wrap;
-    width: 300px;
+    width: 298px;
 }
 
-.dropdown__category{
-    border: 1px solid  rgb(255, 182, 16);
+.dropdown__category {
+    border: 1px solid rgb(255, 182, 16);
     transition: ease .5s;
+    border-top: none;
+    transform: translate(0, 60px) !important;
+    border-radius: 0;
+
 }

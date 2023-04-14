@@ -1,0 +1,45 @@
+.footer__top{
+    display: flex;
+    padding-bottom: 4.0625rem;
+    border-bottom: 1px solid rgb(33, 33, 33);
+}
+
+.footer__logo{
+    width: 120px;
+    height: 35px;
+}
+
+.newsletter{
+    color: white;
+}
+
+.footer__input{
+    width: 800px;
+    position: relative;
+
+}
+
+.footer__search__input{
+    width: 480px;
+    height: 50px;
+    background-color: rgb(38, 38, 38);
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 6.25rem;
+}
+
+.footer__btn{
+    background-color: rgb(255, 182, 16);
+    position: absolute;
+    left: 395px;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.footer__pay>img{
+    width: 120px;
+}

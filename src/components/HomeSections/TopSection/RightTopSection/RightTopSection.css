@@ -1,0 +1,47 @@
+.right__photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 41px;
+
+}
+
+.right__photo__bottom {
+    position: relative;
+}
+.right__photo__bottom:hover::before{
+    transform: scale(1,1);
+}
+.right__photo__bottom:hover::after{
+    transform: scale(1,1);
+}
+.right__photo__bottom::after{
+    transform: scale(0,0);
+    top: 0;
+    content: "";
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.6);
+    z-index: 6;
+    transition: .3s ease transform;
+}
+.right__photo__bottom::before {
+    transform: scale(0,0);
+    top: 5%;
+    content: "";
+    left: 5%;
+    opacity: 1;
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border: 3px solid white;
+    transition: .3s ease transform;
+    z-index: 10;
+}
+
+.right__photo__bottom img {
+    z-index: 5;
+}

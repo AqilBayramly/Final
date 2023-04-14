@@ -74,12 +74,13 @@ form{
     cursor: pointer;
     width: 100%;
     height: 100%;
-    line-height: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.category p {
+    margin: 0;
+}
 .compare__wishlist{
     display: flex;
     flex-direction: column;
@@ -107,7 +108,7 @@ form{
     flex-direction: column;
     display: flex;
 }
-.price__text>span{
+.price__text>div>span{
     color: rgb(255, 182, 16);
 }
 

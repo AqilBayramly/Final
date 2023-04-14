@@ -1,0 +1,41 @@
+.all__end{
+    padding-top: 1.25rem;
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__end{
+    width: 900px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.license{
+    color: rgb(119, 119, 119);
+}
+
+.link__end>a>i{
+    color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: aqua;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.link__end>a :hover{
+    background-color: rgb(210, 146, 0);
+}
+
+.banking__end>a>i{
+    color: rgb(119, 119, 119);
+    font-size: 24px;
+}
+
+.banking__end>a :hover{
+    color:rgb(210, 146, 0);
+}

@@ -1,0 +1,15 @@
+.footer__bottom__text{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 1.875rem;
+}
+
+.footer__bottom__text>h6{
+    color: white;
+}
+
+.footer__bottom__text>p{
+    padding-left: 10px;
+    color: rgb(119, 119, 119);
+}
