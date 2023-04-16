@@ -15,6 +15,7 @@
 .top__deals__box{
     border: 1px solid rgb(221, 221, 221);
     width: 220px;
+    position: relative;
 }
 
 .top__deals__images{
@@ -22,10 +23,11 @@
     justify-content: center;
     gap: 30px;
     margin-bottom: 1.875rem;
+    user-select: none;
 }
 
 .top__deal__image{
-    width: 160px;
+    width: 100%;
 }
 
 .checked {
@@ -43,7 +45,7 @@
   }
 
   .top__deals__new__price{
-    color: #242828;
+    color: rgb(36, 40, 40);
     font-weight: 700;
     font-size: 1.125em;
   }
@@ -58,4 +60,8 @@
   .top__deals__bottom__images{
     display: flex;
     justify-content: space-between;
+  }
+
+  .top__deals__box:hover .all__sale__time{
+    display: none !important;
   }

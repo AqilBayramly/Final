@@ -1,0 +1,32 @@
+.top__deals__new__box{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 183, 15);
+    border-radius: 50%;
+  }
+  
+  .top__deals__sale__box{
+    position: absolute;
+    top: 8px;
+    left: 165px;
+    width: 40px;
+    height: 20px;
+    background-color: rgb(36, 40, 40);
+
+  }
+  
+  .top__deals__box__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: .75em;
+    color: black;
+  }
+  
+  .top__deals__sale__box>p{
+    color: rgb(255, 255, 255);
+  }

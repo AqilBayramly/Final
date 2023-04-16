@@ -44,6 +44,9 @@
     border-right: 1px solid rgb(33, 33, 33);
 
 }
+.my__account>p :hover{
+    color: rgb(169, 117, 0);
+}
 
 .quick__links{
     display: flex;
@@ -51,6 +54,10 @@
     width: 220px;
     text-align: center;
     border-right: 1px solid rgb(33, 33, 33);
+}
+
+.quick__links>p :hover{
+    color: rgb(169, 117, 0);
 }
 
 .touch>p>i{

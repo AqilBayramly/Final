@@ -124,3 +124,33 @@ form{
     white-space: pre-wrap;
     width: 150px;
 }
+
+.up__icon{
+    border: 1px solid rgb(255, 182, 16);
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    animation: action 1s infinite alternate;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 182, 16);
+    /* opacity: 0 !important;
+    transform: translateY(100px);
+    transition: .5s; */
+    z-index: 5;
+    cursor: pointer;
+}
+
+.fa-angle-up{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up__icon:hover{
+    background-color: rgba(255, 183, 16, 0.788);
+    border: none;
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 import "./TopDeals.css"
+import TopDealsTimeSection from './TopDealsTimeSection/TopDealsTimeSection'
+import NewSaleBoxes from './NewSaleBoxes/NewSaleBoxes'
 
 function TopDeals() {
   return (
@@ -10,6 +12,10 @@ function TopDeals() {
 
         <div className='top__deals__images'>
             <div className='top__deals__box'>
+
+            <NewSaleBoxes></NewSaleBoxes>
+            <TopDealsTimeSection></TopDealsTimeSection>
+            
             <a href='#!'>
                 <img className='top__deal__image' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/2-222x248.webp' alt='...'></img>
             <p className='top__deal__image__text'>HTC Touch HD</p>
@@ -24,7 +30,11 @@ function TopDeals() {
             <span className='top__deals__new__price'>$80.00 </span>
             <span className='top__deals__old__price'> $120.00</span>
             </div>
+            
             <div className='top__deals__box'>
+            <NewSaleBoxes></NewSaleBoxes>
+            <TopDealsTimeSection></TopDealsTimeSection>
+
             <a href='#!'>
                 <img className='top__deal__image' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/3-222x248.webp' alt='...'></img>
             <p className='top__deal__image__text'>Nikon D300</p>
@@ -40,6 +50,9 @@ function TopDeals() {
             <span className='top__deals__old__price'> $270.00</span>
             </div>
             <div className='top__deals__box'>
+            <NewSaleBoxes></NewSaleBoxes>
+            <TopDealsTimeSection></TopDealsTimeSection>
+
             <a href='#!'>
                 <img className='top__deal__image' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/16-222x248.webp' alt='...'></img>
             <p className='top__deal__image__text'>iPod Touch</p>
@@ -54,7 +67,10 @@ function TopDeals() {
             <span className='top__deals__new__price'>$280.00 </span>
             <span className='top__deals__old__price'> $500.00</span>
             </div>
-            <div className='top__deals__box'>
+            <div className='top__deals__box'>      
+            <NewSaleBoxes></NewSaleBoxes>
+            <TopDealsTimeSection></TopDealsTimeSection>
+
             <a href='#!'>
                 <img className='top__deal__image' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/2-222x248.webp' alt='...'></img>
             <p className='top__deal__image__text'>iPod Nano</p>
@@ -70,6 +86,9 @@ function TopDeals() {
             <span className='top__deals__old__price'> $150.00</span>
             </div>
             <div className='top__deals__box'>
+            <NewSaleBoxes></NewSaleBoxes>
+            <TopDealsTimeSection></TopDealsTimeSection>
+
             <a href='#!'>
                 <img className='top__deal__image' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/7-222x248.webp' alt='...'></img>
             <p className='top__deal__image__text'>Apple Cinema 30"</p>
@@ -98,14 +117,6 @@ function TopDeals() {
             </a>
 
         </div>
-
-
-
-
-
-
-
-
 
         </div>
     </div>

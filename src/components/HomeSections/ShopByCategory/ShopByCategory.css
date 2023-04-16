@@ -18,6 +18,17 @@
     margin: 0 auto;
 }
 
-.SwiperSlide{
-    background-color: yellow;
+
+.shop__category__text__swiper{
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.shop__category__images__swiper>a:hover .shop__category__text__swiper{
+    color: rgb(210, 146, 0);
+}
+
+.shop__category__images__swiper>a>img{
+    border-radius: 50%;
 }

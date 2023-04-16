@@ -12,7 +12,7 @@ function FooterTopSection() {
           <div className='footer__search'>
             <h3 className='newsletter'>Newsletter</h3>
             <div class="footer__input">
-              <i class="fa-regular fa-envelope"></i>
+              <i class="fa-regular fa-envelope footer__envelope"></i>
               <input type="email" className='footer__search__input' placeholder="Email ID"></input>
               <button class="footer__btn" type="button" id="button-addon2">Subscribe</button>
             </div>

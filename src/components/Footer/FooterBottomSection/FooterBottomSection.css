@@ -9,7 +9,11 @@
     color: white;
 }
 
-.footer__bottom__text>p{
+.footer__bottom__text>a>p{
     padding-left: 10px;
     color: rgb(119, 119, 119);
+}
+
+.footer__bottom__text :hover{
+    color: rgb(247, 173, 0);
 }

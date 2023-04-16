@@ -16,3 +16,26 @@
 .swiper__image{
     width: 100%;
 }
+
+.swiper-button-next{
+    display: none;
+    color: black;
+}
+
+.swiper-button-prev{
+    display: none;
+    color: black;
+}
+
+.left__photo:hover .swiper-button-next{
+    display: block;
+}
+
+.left__photo:hover .swiper-button-prev{
+    display: block;
+}
+
+.swiper-horizontal>.swiper-pagination-progressbar{
+    left: 0;
+    top: 537px;
+}

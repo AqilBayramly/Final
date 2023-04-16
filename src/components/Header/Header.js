@@ -111,6 +111,10 @@ function Header() {
             <p style={{margin:"0"}}>Shopping Cart</p>
           </div>
         </div>
+
+        <div class="up__icon">
+    <a href="#start"><i class="fa-solid fa-angle-up"></i></a>
+  </div>
       </header>
     </div>
   );

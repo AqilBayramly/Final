@@ -9,7 +9,6 @@
 
 .top {
     max-width: 1200px;
-    padding-top: 1.875rem;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -24,6 +23,7 @@
     margin-top: 45px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .fa-truck {
@@ -33,7 +33,9 @@
 }
 
 .top__section__text>h4 {
+    margin: 0;
     margin-right: 10px;
+
 }
 
 .offer__until__box {
@@ -41,4 +43,6 @@
     border-radius: 50px;
     padding: 0.40625rem 1.875rem;
     margin-left: 10px;
+    text-align: center;
+
 }

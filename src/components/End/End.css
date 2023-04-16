@@ -12,23 +12,34 @@
     display: flex;
 }
 
+
+.link__end{
+    display: flex;
+    gap: 15px;
+}
+
+.banking__end{
+    display: flex;
+    gap: 15px;
+}
+
 .license{
     color: rgb(119, 119, 119);
 }
 
-.link__end>a>i{
+.link__end>a{
+    background-color: rgb(222, 226, 230);
     color: black;
     width: 30px;
     height: 30px;
-    border-radius: 25px;
-    background-color: aqua;
-    /* display: flex;
+    border-radius: 50%;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
-.link__end>a :hover{
-    background-color: rgb(210, 146, 0);
+.link__end :hover{
+    background-color: rgb(247, 173, 0);
 }
 
 .banking__end>a>i{
