@@ -63,5 +63,9 @@
   }
 
   .top__deals__box:hover .all__sale__time{
-    display: none !important;
+    display: none;
+  }
+
+  .top__deals__box:hover .yellow__box{
+    display: block;
   }

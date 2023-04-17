@@ -1,7 +1,7 @@
 import React from 'react'
-import "./NewSaleBoxes.css"
+import "./NewAndSaleBox.css"
 
-function NewSaleBoxes() {
+function NewAndSaleBox() {
   return (
     <div>
                         <div>
@@ -17,4 +17,4 @@ function NewSaleBoxes() {
   )
 }
 
-export default NewSaleBoxes
+export default NewAndSaleBox
