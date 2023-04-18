@@ -1,7 +1,7 @@
 .shop__by__brand__content{
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .shop__by__brand__content>h3{
@@ -38,7 +38,7 @@
 
 .end__of_season__time{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     text-align: center;
     font-size: 20px;
     font-weight: 300;
@@ -47,4 +47,26 @@
 .end__of_season__sale__text>h3{
     font-size: 38px;
     margin-bottom: 20px;
+    color: rgb(33, 37, 41);
+}
+
+.season__time__two__points{
+    /* display: flex;
+    align-items: center; */
+    font-size: 45px;
+}
+
+.season__time__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.season__time__text__number{
+    font-size: 32px;
+}
+
+.season__time__text__hours{
+    font-size: 22px;
+    color: rgb(33, 37, 41);
+
 }

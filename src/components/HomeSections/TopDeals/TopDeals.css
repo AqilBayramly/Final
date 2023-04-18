@@ -55,6 +55,8 @@
     font-size: .875em;
     font-weight: 400;
     color: rgb(36, 40, 40);
+    max-width: 90%;
+    margin: 0 auto;
   }
 
   .top__deals__bottom__images{
@@ -68,4 +70,10 @@
 
   .top__deals__box:hover .yellow__box{
     display: block;
+  }
+
+  .star__and__price{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
   }

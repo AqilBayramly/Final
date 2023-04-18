@@ -49,6 +49,11 @@
     border-bottom-right-radius: 25px;
 }
 
+.footer__btn:hover{
+    background-color: rgb(255, 193, 52);
+
+}
+
 .footer__pay>img{
     width: 120px;
 }

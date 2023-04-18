@@ -1,18 +1,29 @@
 .sale__time__text{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+   margin: 0;
     font-size: 10px;
     color:rgb(108, 117, 125);
   }
 
-  .sale__time__number{
-    display: flex;
+  .all__period{
+     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .sale__time__number{
     font-size: 16px;
     color: rgb(33, 37, 41);
     font-weight: bold;
+   margin: 0;
+  }
+
+  .watch__sale{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
   }
 
   .sale__time{
@@ -21,22 +32,20 @@
     background-color: white;
     width: 214px;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-
+    flex-direction: column;
   }
 
   .all__sale__time{
     position: absolute;
-    top: 130px;
-  }
-
-  .watch__sale{
-    display: flex;
+    top: 180px;
   }
 
   .top__deals__claimed{
     text-align: right;
     font-size: 10px;
     color:rgb(108, 117, 125);
+  }
+
+  .top__deals__claimed>p{
+   margin: 0;
   }

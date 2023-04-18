@@ -73,17 +73,19 @@ function ShopByBrand() {
                 <h3>End of season sale</h3>
 
                 <div className='end__of_season__time'>
-                <div>
-                    <p>5</p>
-                    <p>Hours</p>
+                <div className='season__time__text'>
+                    <span className='season__time__text__number'>5</span>
+                    <span className='season__time__text__hours'>Hours</span>
                 </div>
-                <div>
-                    <p>17</p>
-                    <p>Minutes</p>
+                <span className='season__time__two__points'>:</span>
+                <div className='season__time__text'>
+                    <span className='season__time__text__number'>17</span>
+                    <span className='season__time__text__hours'>Minutes</span>
                 </div>
-                <div>
-                    <p>43</p>
-                    <p>Seconds</p>
+                <span className='season__time__two__points'>:</span>
+                <div className='season__time__text'>
+                    <span className='season__time__text__number'>43</span>
+                    <span className='season__time__text__hours'>Seconds</span>
                 </div>
                 </div>
 

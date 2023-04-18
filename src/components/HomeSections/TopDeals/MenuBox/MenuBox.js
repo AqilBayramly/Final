@@ -26,6 +26,7 @@ function MenuBox() {
                 <i class="fa-solid fa-scale-balanced box__menu__icon"></i>
                     </a>
                 </div>
+                
             </div>
         </div>
     </div>

@@ -8,37 +8,25 @@ function TopDealsTimeSection() {
         <div className='top__deals__claimed'>
           <p>6% Claimed</p>
         </div>
+
         <div className='sale__time'>
+
           <div className='all__period'>
             <p className='sale__time__text'>Days</p>
-            <div className='watch__sale'>
-              <p className='sale__time__number'>100</p>
-              <p>:</p>
-            </div>
-          </div>
-
-          <div className='all__period'>
             <p className='sale__time__text'>Hours</p>
-            <div className='watch__sale'>
-              <p className='sale__time__number'>6</p>
-              <p>:</p>
-            </div>
-          </div>
-
-          <div className='all__period'>
             <p className='sale__time__text'>Minutes</p>
-            <div className='watch__sale'>
-              <p className='sale__time__number'>37</p>
-              <p>:</p>
-            </div>
+            <p className='sale__time__text'>Seconds</p>
           </div>
 
-          <div className='all__period'>
-            <p className='sale__time__text'>Seconds</p>
-            <div className='watch__sale'>
-              <p className='sale__time__number'>25</p>                                </div>
-          </div>
+          <div className='watch__sale'>
+              <p className='sale__time__number'>17 &nbsp;&nbsp;:</p>
+              <p className='sale__time__number'>6 &nbsp;&nbsp;:</p>
+              <p className='sale__time__number'>37 &nbsp;&nbsp;:</p>
+              <p className='sale__time__number'>25</p>                               
+            </div>
+
         </div>
+
       </div>
     </div>
   )

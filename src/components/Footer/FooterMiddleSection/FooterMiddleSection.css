@@ -17,7 +17,6 @@
 .footer__about{
     width: 380px;
     border-right: 1px solid rgb(33, 33, 33);
-
 }
 
 .footer__about>p{
@@ -26,23 +25,26 @@
 }
 
 .touch{
-    text-align: center;
+    text-align: left;
     width: 350px;
-
+    margin-left: 30px;
 }
 
 .touch>p{
     color: rgb(119, 119, 119);
+}
 
+.footer__head{
+    margin-bottom: 25px;
 }
 
 .my__account{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     width: 220px;
     border-right: 1px solid rgb(33, 33, 33);
-
+    margin-left: 50px;
 }
 .my__account>p :hover{
     color: rgb(169, 117, 0);
@@ -52,8 +54,9 @@
     display: flex;
     flex-direction: column;
     width: 220px;
-    text-align: center;
+    text-align: left;
     border-right: 1px solid rgb(33, 33, 33);
+    margin-left: 50px;
 }
 
 .quick__links>p :hover{
@@ -63,3 +66,4 @@
 .touch>p>i{
     padding-right: 10px;
 }
+
