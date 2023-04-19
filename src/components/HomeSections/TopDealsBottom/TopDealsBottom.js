@@ -1,9 +1,11 @@
 import React from 'react'
 import "./TopDealsBottom.css"
+import TopDealsNavbar from '../TopDealsNavbar/TopDealsNavbar'
 
 function TopDealsBottom() {
   return (
-    <div className='top__deals__bottom__gray__line'>
+    <div>
+            <div className='top__deals__bottom__gray__line'>
         <div className='top__deals__bottom__content'>
             <div className='top__deals__bottom__navbar'>
                 <a href='#!'>
@@ -28,10 +30,10 @@ function TopDealsBottom() {
                 </a>
             </div>
 
-
-
-
         </div>
+            <TopDealsNavbar></TopDealsNavbar>
+
+    </div>
     </div>
   )
 }

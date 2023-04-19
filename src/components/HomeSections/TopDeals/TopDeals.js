@@ -3,7 +3,7 @@ import "./TopDeals.css"
 import TopDealsTimeSection from './TopDealsTimeSection/TopDealsTimeSection'
 import NewAndSaleBox from './NewAndSaleBox/NewAndSaleBox'
 import MenuBox from './MenuBox/MenuBox'
-import TopDealsBottom from './TopDealsBottom/TopDealsBottom'
+import TopDealsBottom from '../TopDealsBottom/TopDealsBottom'
 
 function TopDeals() {
   return (
@@ -137,8 +137,8 @@ function TopDeals() {
             </a>
 
         </div>
-        <TopDealsBottom></TopDealsBottom>
         </div>
+        <TopDealsBottom></TopDealsBottom>
     </div>
   )
 }

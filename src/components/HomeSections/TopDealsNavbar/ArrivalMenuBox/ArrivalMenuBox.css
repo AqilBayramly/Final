@@ -1,20 +1,20 @@
-.yellow__box{
+.arrival__yellow__box{
     max-width: 180px;
     height: 35px;
     margin: 0 auto;
     background-color: rgb(255, 183, 15);
     position: absolute;
-    top: 105px;
-    left: 18px;
+    top: 143px;
+    left: 45px;
     display: none;
 }
 
-.menu__boxes{
+.arrival__menu__boxes{
     height: 100%;
     display: flex;
 }
 
-.box__menu{
+.arrival__box__menu{
     width: 45px;
     color: black;
     display: flex;
@@ -23,14 +23,14 @@
     cursor: pointer;
 }
 
-.box__menu:hover{
+.arrival__box__menu:hover{
     background-color: rgb(33, 37, 41);
 }
 
-.box__menu:hover .box__menu__icon{
+.arrival__box__menu:hover .arrival__menu__icon{
     color: white !important;
 }
 
-.menu__boxes>div>a{
+.arrival__menu__boxes>div>a{
     color: black !important;
 }

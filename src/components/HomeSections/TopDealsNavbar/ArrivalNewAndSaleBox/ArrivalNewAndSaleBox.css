@@ -1,0 +1,36 @@
+.arrival__new__box{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 183, 15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrival__sale__box{
+    position: absolute;
+    top: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    right: 15px;
+    width: 40px;
+    height: 20px;
+    background-color: rgb(36, 40, 40);
+
+  }
+  
+  .arrival__box__text{
+    font-weight: 900;
+    font-size: .75em;
+    color: black;
+
+  }
+  
+  .arrival__sale__box>span{
+    color: rgb(255, 255, 255);
+  }

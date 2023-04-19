@@ -1,0 +1,38 @@
+.top__deals__bottom__gray__line{
+    margin-top: 1.875rem;
+    background-color: rgb(242, 242, 245);
+    padding-top: 5rem;
+    }
+    
+    .top__deals__bottom__content{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .top__deals__bottom__navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+        margin-bottom: 1.875rem;
+    }
+    
+    .top__deals__bottom__nav{
+        padding: 8px 20px;
+    }
+    
+    .top__deals__bottom__nav:hover{
+        background-color: rgb(255, 182, 16);
+    }
+    
+    .top__deals__bottom__nav:hover .top__deals__bottom__nav__text{
+        color: black;
+    }
+    
+    .top__deals__bottom__nav>span{
+        color: rgb(33, 37, 57);
+        font-size: 1.125em;
+        font-weight: 600;
+    }
+    
+    
+    

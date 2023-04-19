@@ -1,0 +1,33 @@
+.new__arrival__box{
+    border: 1px solid rgb(221, 221, 221);
+    width: 275px;
+    position: relative;
+    background-color: white;
+}
+
+.new__arrival__box:hover .arrival__all__sale__time{
+    display: none;
+  }
+
+  .new__arrival__box:hover .arrival__yellow__box{
+    display: block;
+    z-index: 10;
+  }
+
+  .new__arrival__swiper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+  }
+
+  .arrival__pre__order{
+    position: absolute;
+    top: 138px;
+    left: 95px;
+    background-color: rgb(220, 53, 69);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    padding: 0.3em 0.5em;
+    font-weight: 900;
+    line-height: 1;
+  }
