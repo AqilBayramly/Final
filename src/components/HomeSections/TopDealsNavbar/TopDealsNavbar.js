@@ -1,10 +1,9 @@
 import React from 'react'
 import "./TopDealsNavbar.css"
-import PopularNavTopDeals from './PopularNavTopDeals'
-
 import ArrivalNavTopDeals from './ArrivalNavTopDeals'
-import BestSellerNavTopDeals from './BestSellerNavTopDeals'
-import OnSaleNavTopDeals from './OnSaleNavTopDeals'
+// import PopularNavTopDeals from './PopularNavTopDeals'
+// import BestSellerNavTopDeals from './BestSellerNavTopDeals'
+// import OnSaleNavTopDeals from './OnSaleNavTopDeals'
 
 
 function TopDealsNavbar() {

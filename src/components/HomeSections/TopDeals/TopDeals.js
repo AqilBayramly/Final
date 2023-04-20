@@ -1,21 +1,22 @@
 import React from 'react'
 import "./TopDeals.css"
 import TopDealsTimeSection from './TopDealsTimeSection/TopDealsTimeSection'
-import NewAndSaleBox from './NewAndSaleBox/NewAndSaleBox'
 import MenuBox from './MenuBox/MenuBox'
 import TopDealsBottom from '../TopDealsBottom/TopDealsBottom'
+import TopDealsSaleBox from './TopDealsSaleBox/TopDealsSaleBox'
+import TopDealsNewBox from './TopDealsNewBox/TopDealsNewBox'
 
 function TopDeals() {
   return (
     <div>
-
         <div className='top__deals__content'>
         <h4 className='top__deals__text'>Top deals in this week</h4>
 
         <div className='top__deals__images'>
             <div className='top__deals__box'>
 
-            <NewAndSaleBox></NewAndSaleBox>
+            <TopDealsNewBox></TopDealsNewBox>
+            <TopDealsSaleBox></TopDealsSaleBox>
             <TopDealsTimeSection></TopDealsTimeSection>
             <MenuBox></MenuBox>
             <a href='#!'>
@@ -37,7 +38,8 @@ function TopDeals() {
             </div>
             
             <div className='top__deals__box'>
-            <NewAndSaleBox></NewAndSaleBox>
+            <TopDealsNewBox></TopDealsNewBox>
+            <TopDealsSaleBox></TopDealsSaleBox>
             <TopDealsTimeSection></TopDealsTimeSection>
             <MenuBox></MenuBox>
 
@@ -59,7 +61,8 @@ function TopDeals() {
             </div>
 
             <div className='top__deals__box'>
-            <NewAndSaleBox></NewAndSaleBox>
+            <TopDealsNewBox></TopDealsNewBox>
+            <TopDealsSaleBox></TopDealsSaleBox>
             <TopDealsTimeSection></TopDealsTimeSection>
             <MenuBox></MenuBox>
 
@@ -81,7 +84,8 @@ function TopDeals() {
             </div>
 
             <div className='top__deals__box'>      
-            <NewAndSaleBox></NewAndSaleBox>
+            <TopDealsNewBox></TopDealsNewBox>
+            <TopDealsSaleBox></TopDealsSaleBox>
             <TopDealsTimeSection></TopDealsTimeSection>
             <MenuBox></MenuBox>
 
@@ -103,7 +107,8 @@ function TopDeals() {
             </div>
 
             <div className='top__deals__box'>
-            <NewAndSaleBox></NewAndSaleBox>
+            <TopDealsNewBox></TopDealsNewBox>
+            <TopDealsSaleBox></TopDealsSaleBox>
             <TopDealsTimeSection></TopDealsTimeSection>
             <MenuBox></MenuBox>
 

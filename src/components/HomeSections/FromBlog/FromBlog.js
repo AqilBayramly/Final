@@ -30,9 +30,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Mark Je...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;15</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 587</span>
           </div>
         </div>
 
@@ -61,9 +63,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Jolio Bal...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;47</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 852</span>
           </div>
         </div>
 
@@ -92,9 +96,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Mark Je...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;98</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 463</span>
           </div>
         </div>
 
@@ -123,9 +129,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Jolio Bal...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;15</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 587</span>
           </div>
         </div>
 
@@ -154,9 +162,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Mark Je...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;15</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 587</span>
           </div>
         </div>
 
@@ -185,9 +195,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Mark Je...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;36</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 247</span>
           </div>
         </div>
 
@@ -216,9 +228,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Jolio Bal...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;97</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 1401</span>
           </div>
         </div>
 
@@ -247,9 +261,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Mark Je...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;15</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 587</span>
           </div>
         </div>
 
@@ -277,9 +293,11 @@ function FromBlog() {
           <span>25 Feb 2023</span>
           </div>
           <div className='from__blog__comments_contain'>
-          <span><i class="fa-solid fa-user"></i>Mark Je...</span>
-          <span><i class="fa-solid fa-comments"></i>15</span>
-          <span><i class="fa-solid fa-eye"></i>587</span>
+          <span ><i class="fa-solid fa-user"></i>&nbsp;Mark Je...</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-comments"></i>&nbsp;7</span>
+          <span className='from__blog__border'></span>
+          <span><i class="fa-solid fa-eye"></i>&nbsp; 248</span>
           </div>
         </div>
 

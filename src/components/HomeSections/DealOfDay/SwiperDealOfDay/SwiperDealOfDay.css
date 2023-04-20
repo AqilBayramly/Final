@@ -1,0 +1,56 @@
+.deal__of__day__middle{
+    position: relative;
+    border: 1px solid rgb(221, 221, 221);
+    width: 380px;
+}
+.deal__of__day__middle>h3{
+    text-align: center;
+    padding-top: 1.875rem;
+    margin-bottom: 4.5rem;
+}
+
+.deal__of__day__photos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal__of__day__new__price{
+    color: rgb(36, 40, 40);
+    font-weight: 700;
+    font-size: 1.125em;
+  }
+
+  .deal__of__day__old__price{
+    text-decoration: line-through !important;
+    color: rgb(108, 117, 125);
+    font-size: 1.125em;
+   }
+
+  .deal__of__day__image__text{
+    text-decoration: none;
+    font-size: .875em;
+    font-weight: 400;
+    color: rgb(36, 40, 40);
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .deal__of__day__star__and__price{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 14px;
+
+  }
+  .deal__of__day__star__and__price>div{
+    margin-bottom: 10px;
+  }
+
+  .deal__of__day__middle:hover .deal__of__day__time__content{
+    display: none;
+  }
+
+  .deal__of__day__middle:hover .dod__yellow__box{
+    display: block;
+  }

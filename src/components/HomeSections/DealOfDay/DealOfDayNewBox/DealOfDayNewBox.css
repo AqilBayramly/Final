@@ -1,0 +1,17 @@
+.dod__new__box{
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 183, 15);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dod__box__text{
+    font-weight: 900;
+    font-size: .75em;
+    color: black;
+
+  }

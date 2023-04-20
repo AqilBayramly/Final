@@ -10,27 +10,9 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .top__deals__sale__box{
-    position: absolute;
-    top: 8px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    right: 15px;
-    width: 40px;
-    height: 20px;
-    background-color: rgb(36, 40, 40);
 
-  }
-  
   .top__deals__box__text{
     font-weight: 900;
     font-size: .75em;
     color: black;
-
-  }
-  
-  .top__deals__sale__box>span{
-    color: rgb(255, 255, 255);
   }

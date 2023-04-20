@@ -1,6 +1,7 @@
 import React from 'react'
 import "./TopDealsBottom.css"
 import TopDealsNavbar from '../TopDealsNavbar/TopDealsNavbar'
+import DealOfDay from '../DealOfDay/DealOfDay'
 
 function TopDealsBottom() {
   return (
@@ -34,6 +35,8 @@ function TopDealsBottom() {
             <TopDealsNavbar></TopDealsNavbar>
 
     </div>
+    <DealOfDay></DealOfDay>
+
     </div>
   )
 }

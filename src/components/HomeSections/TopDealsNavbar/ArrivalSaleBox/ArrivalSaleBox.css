@@ -1,17 +1,4 @@
-.arrival__new__box{
-    position: absolute;
-    top: 8px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
-    background-color: rgb(255, 183, 15);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .arrival__sale__box{
+.arrival__sale__box{
     position: absolute;
     top: 8px;
     align-items: center;
