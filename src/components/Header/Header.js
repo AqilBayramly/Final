@@ -16,9 +16,11 @@ function Header() {
           </a>
         </div>
         <form>
+          <div className="header__form">
+
           <div className="dropdown header__dropdown__menu">
             <button
-              className="btn  category"
+              className="btn category"
               type="button"
               data-bs-toggle="dropdown"
               aria-expanded="false"
@@ -80,11 +82,12 @@ function Header() {
               placeholder="Search Products"
               aria-label="Search Products"
               autocomplete="off"
-            ></input>
+              ></input>
           </div>
           <div className="search__icon">
             <i className="fa-solid fa-magnifying-glass"></i>
           </div>
+            </div>
         </form>
 
         <div className="compare__wishlist">

@@ -1,0 +1,37 @@
+.contact__top__bg{
+    background-color: rgb(249, 249, 249);
+
+}
+
+.contact__top_box{
+    background-color: white;
+    width: 380px;
+}
+
+.contact__top_boxes{
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact__top_box__content{
+    padding: 30px 0px 30px 30px;
+}
+
+.contact__top_box__icon{
+    width: 37px;
+    height: 57px;
+    font-size: 35px;
+    color: rgb(255, 182, 16);
+}
+
+.contact__top_box__content>p{
+    margin: 0 auto;
+}
+
+.contact__top_box__content>h5{
+    margin-bottom: 15px;
+}

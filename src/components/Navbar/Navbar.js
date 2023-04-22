@@ -102,8 +102,8 @@ function Navbar() {
           <a href="#!">About Us</a>
           <a href="#!">
 
-          <div class="dropdown">
-  <a class="btn btn-secondary dropdown-toggle add__ons" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <div class="dropdown add__ons__drop">
+  <a class="btn btn-secondary dropdown-toggle add__ons__btn" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
   AddOns
   </a>
 

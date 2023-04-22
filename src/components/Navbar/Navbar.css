@@ -49,11 +49,6 @@
     background-color: rgb(36, 40, 40);
 }
 
-.add__ons{
-    color: white;
-    background-color: rgb(36, 40, 40);
-}
-
 .dropdown__category .dropdown-item {
     white-space: pre-wrap;
     width: 298px;
@@ -67,11 +62,22 @@
     border-radius: 0;
 }
 
-.add__ons{
-    background-color: rgb(255, 182, 16);
+.add__ons__btn{
     border: none;
     color: black;
     font-size: 1.125em;
     font-weight: 600;
+}
 
+.add__ons__drop{
+    border: none;
+}
+
+.add__ons__btn{
+        --bs-btn-bg: none;
+            --bs-btn-active-bg: none;
+            --bs-btn-hover-bg: none;
+                font-size: 1.125em;
+    font-weight: 600;
+    padding: 0;
 }
