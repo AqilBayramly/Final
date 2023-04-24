@@ -1,8 +1,10 @@
 import React from "react";
 import "./Navbar.css";
+// import { Outlet } from "react-router-dom";
 
 function Navbar() {
   return (
+    <div>
     <div style={{backgroundColor:"rgb(255, 182, 16)"}}>
       <div className="yellow__line">
         <div className="dropdown ">
@@ -95,6 +97,7 @@ function Navbar() {
           </ul>
         </div>
 
+        <nav>
         <div className="nav">
           <a href="#!">Home</a>
           <a href="#!">Special</a>
@@ -106,8 +109,7 @@ function Navbar() {
   <a class="btn btn-secondary dropdown-toggle add__ons__btn" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
   AddOns
   </a>
-
-  <ul class="dropdown-menu">
+  <ul class="dropdown-menu dropdown__show">
     <li><a class="dropdown-item" href="#!">Modules</a></li>
     <li><a class="dropdown-item" href="#!">Designs</a></li>
     <li><a class="dropdown-item" href="#!">Widgets</a></li>
@@ -116,8 +118,11 @@ function Navbar() {
           </a>
           <a href="#!">Contact Us</a>
         </div>
+        </nav>
       </div>
 
+    </div>
+    {/* <Outlet/> */}
     </div>
   );
 }

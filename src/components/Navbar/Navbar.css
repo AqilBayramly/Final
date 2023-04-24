@@ -73,11 +73,16 @@
     border: none;
 }
 
-.add__ons__btn{
-        --bs-btn-bg: none;
-            --bs-btn-active-bg: none;
-            --bs-btn-hover-bg: none;
-                font-size: 1.125em;
+.add__ons__btn {
+    --bs-btn-bg: none;
+    --bs-btn-active-bg: none;
+    --bs-btn-hover-bg: none;
+    font-size: 1.125em;
     font-weight: 600;
     padding: 0;
+}
+
+.dropdown__show{
+    margin-top: 12px !important;
+    padding-right: 50px !important;
 }

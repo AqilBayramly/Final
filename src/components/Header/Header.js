@@ -73,7 +73,7 @@ function Header() {
               </li>
             </ul>
           </div>
-          <div className="flex-fill ">
+          <div className="flex-fill">
             <input
               className="search__input"
               type="text"
