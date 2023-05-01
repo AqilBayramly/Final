@@ -1,0 +1,106 @@
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.top__header__content {
+    max-width: 89%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.top__header__links {
+    display: flex;
+    gap: 40px;
+}
+
+.top__header__links>a {
+    color: black;
+}
+
+.top__header__links>div>a {
+    color: black;
+}
+
+.britain__flag {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.top__header__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 10px;
+}
+
+.top__header__text>span {
+    color: rgb(108, 117, 125);
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+    .top__header__content {
+        max-width: 97%;
+    }
+
+  .top__header__text>span{
+    display: none;
+  }
+
+  .top__header__text{
+    display: flex;
+    justify-content: space-between;
+  }
+    
+  .compare__top__header{
+    display: flex !important;
+    flex-direction: row;
+    gap: 25px;
+  }
+}

@@ -1,0 +1,83 @@
+.filter__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 17px;
+}
+
+.filter__box{
+    width: 280px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: none;
+    padding-bottom: 30px;
+}
+
+.filter__price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.range__card {
+  width: 280px;
+  border: none;
+}
+
+.price__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 0 30px;
+  padding-top: 30px;
+}
+
+.value__box{
+  width: 80px;
+  height: 30px;
+  border: 1px solid #ced4da;
+}
+
+.price__content>p{
+  margin: 0 auto;
+}
+
+.value__box>p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.range__slider {
+  width: 400px;
+  position: relative;
+  margin: 30px 0 30px 0;
+
+}
+
+input[type=range] {
+  width: 220px;
+  background: transparent; 
+  position: absolute;
+  left: 30px;
+}
+
+.range__slider>input::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: gold;
+  cursor: pointer;
+  margin-top: -5px;
+  position: relative;
+  z-index: 5;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 180px;
+  height: 7px;
+  background-color:  rgb(36, 40, 40);
+}

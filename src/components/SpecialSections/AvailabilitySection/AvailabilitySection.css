@@ -1,0 +1,38 @@
+.availability__box{
+    width: 280px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: none;
+    padding-bottom: 30px;
+}
+
+.availability__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.availability__input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.availability__checkbox{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox__input{
+    width: 17px;
+}
+
+.availability__checkbox>p{
+    margin-bottom: 0 !important;
+}

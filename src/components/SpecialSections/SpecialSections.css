@@ -1,0 +1,12 @@
+.special__all__content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+.special__left__content{
+    width: 280px;
+    border: 1px solid rgb(221, 221, 221);
+    border-top: none;
+    padding-bottom: 30px;
+}

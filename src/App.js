@@ -1,42 +1,41 @@
 import React from 'react'
-import Header from './components/Header/Header'
-import Navbar from './components/Navbar/Navbar'
-import Footer from './components/Footer/Footer'
-import End from './components/End/End'
 import Homepage from './pages/Homepage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import CartShow from './components/CartShow/CartShow'
-import ContactUsSections from './components/ContactUsSections/ContactUsSections'
+// import CartShow from './components/CartShow/CartShow'
+import ContactUs from './pages/ContactUs'
 import AboutUs from './pages/AboutUs'
+import Layout from './Layout/Layout'
+import { useState } from 'react'
+import Blog from './pages/Blog'
+import Special from './pages/Special'
 
 
+function updateScroll(par) {
+  if (par) {
+    document.body.style.overflowY = 'auto';
+  } else {
+    document.body.style.overflowY = 'hidden';
+  }
+}
 function App() {
+  const [scroll, setScroll] = useState(true);
+  updateScroll(scroll);
   return (
     <div>
-      {/* <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Navbar/>}>
-          <Route index element={<Header/>}></Route>
-          <Route index element={<Homepage/>}></Route>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout setScroll = {setScroll}/>}>
+            <Route index element={<Homepage />}></Route>
+            <Route path='about' element={<AboutUs />} />
+            <Route path='contact' element={<ContactUs />} />
+            <Route path='blog' element={<Blog />} />
+            <Route path='special' element={<Special />} />
 
-        </Route>
-      </Routes>
-      
-      </BrowserRouter> */}
-
-
-
-
-      <Header/>
-      {/* <CartShow/> */}
-      <Navbar/>
-      <Homepage/>
-      {/* <AboutUs/> */}
-      {/* <ContactUsSections/> */}
-      <Footer/>
-      <End/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
 
-export default App
+export default App;

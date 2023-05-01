@@ -1,0 +1,31 @@
+.manufacturer__box{
+    width: 280px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: none;
+    padding-bottom: 30px;
+}
+
+.manufacturer__content>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.manufacturer__top>h6{
+    padding-top: 25px;
+    padding-bottom: 15px
+}
+
+.logo__and__name{
+    width: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+.logo__and__name>img{
+    width: 30px;
+    height: 30px;
+}

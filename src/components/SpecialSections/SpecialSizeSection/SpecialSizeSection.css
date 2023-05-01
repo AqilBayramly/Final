@@ -1,0 +1,29 @@
+.special__size__content{
+    width: 280px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: none;
+    padding-bottom: 30px;
+}
+
+.special__size__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 230px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.special__size__boxes{
+    max-width: 230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.special__size__box{
+    border: 1px solid rgb(221, 221, 221);
+    padding: 7px 12px;
+    cursor: pointer;
+}

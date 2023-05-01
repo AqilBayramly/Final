@@ -1,12 +1,12 @@
 import React from "react";
 import "./Navbar.css";
-// import { Outlet } from "react-router-dom";
 
 function Navbar() {
+
   return (
     <div>
     <div style={{backgroundColor:"rgb(255, 182, 16)"}}>
-      <div className="yellow__line">
+      <div className="yellow__line__content">
         <div className="dropdown ">
           <a
             className="btn btn-secondary dropdown-toggle btn__shop__category"
@@ -98,11 +98,11 @@ function Navbar() {
         </div>
 
         <nav>
-        <div className="nav">
-          <a href="#!">Home</a>
-          <a href="#!">Special</a>
-          <a href="#!">Blog</a>
-          <a href="#!">About Us</a>
+        <div className="nav__text">
+          <a href="/">Home</a>
+          <a href="/special">Special</a>
+          <a href="/blog">Blog</a>
+          <a href="/about">About Us</a>
           <a href="#!">
 
           <div class="dropdown add__ons__drop">
@@ -116,13 +116,12 @@ function Navbar() {
   </ul>
 </div>
           </a>
-          <a href="#!">Contact Us</a>
+          <a href="/contact">Contact Us</a>
         </div>
         </nav>
       </div>
 
     </div>
-    {/* <Outlet/> */}
     </div>
   );
 }

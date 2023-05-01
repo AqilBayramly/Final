@@ -1,0 +1,19 @@
+.special__nav__text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.special__nav__content{
+    width: 280px;
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.special__nav__text>a{
+    color: black;
+}
+
+.special__nav__text :hover{
+    color: #d29200;
+}

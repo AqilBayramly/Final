@@ -1,0 +1,17 @@
+.blog__page {
+    background-color: rgb(242, 242, 245);
+}
+
+.blog__contents{
+    max-width: 89%;
+    margin: 0 auto;
+    padding-top: 1.875rem;
+    padding-bottom: 0.9375rem;
+    display: flex;
+    gap: 30px;
+}
+
+.blog__swipers__content{
+    display: flex;
+    flex-direction: column;
+}

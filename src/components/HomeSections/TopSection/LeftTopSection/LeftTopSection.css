@@ -1,5 +1,5 @@
 :root {
-    --swiper-theme-color: #242828;
+    --swiper-theme-color: rgb(36, 40, 40);
 }
 
 .top_swiper{
@@ -11,7 +11,8 @@
 }
 
 .left__photo{
-    width: 787px;
+    max-width: 787px;
+    object-fit: contain;
 }
 .swiper__image{
     width: 100%;

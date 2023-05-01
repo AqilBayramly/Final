@@ -1,0 +1,18 @@
+.blog__filter__boxes{
+    width: 280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog__filter__boxes>a{
+    height: 50px;
+    color: black;
+    border: 1px solid #ddd;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.blog__filter__boxes>a:hover{
+    background-color: #ddddddb0;
+}
