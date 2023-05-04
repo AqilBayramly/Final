@@ -1,0 +1,35 @@
+.product__big__image{
+    width: 420px;
+}
+
+.product__left__image{
+    width: 110px;
+    border: 1px solid rgb(221, 221, 221);
+    border-left: none;
+    border-top: none;
+}
+
+.product__left__images{
+    display: flex;
+    flex-direction: column;
+}
+.product__images__box{
+    position: relative;
+    width: 570px;
+    display: flex;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.product__images__box__heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 25px;
+    padding: 6px 11px;
+    cursor: pointer;
+}
+
+.product__images__box__heart>i{
+    color: rgb(221, 221, 221);
+}

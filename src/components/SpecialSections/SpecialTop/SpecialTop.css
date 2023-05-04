@@ -14,10 +14,6 @@
 .special__top__text{
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.special__top__text{
-    border-bottom: 1px solid rgb(221, 221, 221);
     margin-top: 15px;
 }
 
@@ -27,8 +23,4 @@
 
 .about__us__top__text>a :hover{
     color: rgb(143, 100, 0);
-}
-
-.about__us__line{
-    text-decoration: underline black;
 }

@@ -1,0 +1,39 @@
+.special__header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.special__select__box{
+    outline: none;
+    margin-left: 10px;
+    width: 75px;
+    height: 40px;
+}
+
+.special__select__sort__box{
+    outline: none;
+    margin-left: 10px;
+    width: 185px;
+    height: 40px;
+}
+
+.special__header__left__select{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.special__header__table__icons{
+    display: flex;
+    gap: 15px;
+}
+
+.special__header__table__icons>i{
+    font-size: 18px;
+}
+
+.special__compare{
+    color: rgb(210, 146, 0);
+}

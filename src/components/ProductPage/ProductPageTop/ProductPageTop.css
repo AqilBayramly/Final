@@ -1,0 +1,36 @@
+.product__page__gray_bg {
+    background-color: rgb(245, 245, 245);
+}
+
+.product__page__top {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product__page__top__image {
+    width: 1200px;
+}
+
+
+.product__page__top__text{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-house{
+    color: rgb(209, 146, 0);
+}
+
+.product__page__home__icon>a :hover{
+    color: rgb(143, 100, 0);
+}
+
+.software__link>a{
+    color: rgb(210, 146, 0);
+}
+
+.software__link>a:hover{
+    color: rgb(173, 121, 0);
+}

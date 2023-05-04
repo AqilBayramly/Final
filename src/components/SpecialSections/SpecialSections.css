@@ -10,3 +10,9 @@
     border-top: none;
     padding-bottom: 30px;
 }
+
+.special__left__right__content{
+    display: flex;
+    justify-content: space-between;
+}
+

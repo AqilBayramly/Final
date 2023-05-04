@@ -8,6 +8,7 @@ import Layout from './Layout/Layout'
 import { useState } from 'react'
 import Blog from './pages/Blog'
 import Special from './pages/Special'
+import ProductCard from './pages/ProductCard'
 
 
 function updateScroll(par) {
@@ -30,6 +31,8 @@ function App() {
             <Route path='contact' element={<ContactUs />} />
             <Route path='blog' element={<Blog />} />
             <Route path='special' element={<Special />} />
+            <Route path='product' element={<ProductCard />} />
+
 
           </Route>
         </Routes>

@@ -5,6 +5,7 @@ import MenuBox from './MenuBox/MenuBox'
 import TopDealsBottom from '../TopDealsBottom/TopDealsBottom'
 import TopDealsSaleBox from './TopDealsSaleBox/TopDealsSaleBox'
 import TopDealsNewBox from './TopDealsNewBox/TopDealsNewBox'
+import DealOfDay from '../DealOfDay/DealOfDay'
 
 function TopDeals() {
   return (
@@ -19,7 +20,7 @@ function TopDeals() {
             <TopDealsSaleBox></TopDealsSaleBox>
             <TopDealsTimeSection></TopDealsTimeSection>
             <MenuBox></MenuBox>
-            <a href='#!'>
+            <a href='/product'>
                 <img className='top__deal__image' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/2-222x248.webp' alt='...'></img>
             <p className='top__deal__image__text'>HTC Touch HD</p>
             </a>
@@ -144,6 +145,7 @@ function TopDeals() {
         </div>
         </div>
         <TopDealsBottom></TopDealsBottom>
+        <DealOfDay/>
     </div>
   )
 }

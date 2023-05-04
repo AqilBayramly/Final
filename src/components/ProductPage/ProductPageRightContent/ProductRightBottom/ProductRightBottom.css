@@ -1,0 +1,130 @@
+.size_chart__zone{
+    display: flex;
+    gap: 30px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.size_chart__zone>span{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.online__payment__zone{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 30px;
+    margin-bottom: 1.625rem;
+}
+
+.online__payment__zone>span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+}
+
+.online__payment__zone>span>i{
+    font-size: 30px;
+    color: rgb(248, 130, 66);
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.review__and__star__zone{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.review__area{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.review__area>h3{
+    font-weight: 700;
+}
+
+.product__right__bottom__box{
+    background-color: rgb(242, 242, 245);
+    padding: 35px 35px 35px 35px;
+    border: 1px solid #ddd
+}
+
+.review__write__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review__write__inputs>input{
+    height: 50px;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid #ced4da;
+}
+
+.review__write__inputs>textarea{
+    height: 170px;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid #ced4da;
+}
+
+.review__btn{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(36, 40, 40);
+    border: none;
+    color: white;
+  }
+
+  .review__btn__box{
+    display: flex;
+    justify-content: end;
+  }
+
+  .review__btn:hover{
+    background-color: rgb(26, 29, 29);
+  }
+  

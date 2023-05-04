@@ -1,7 +1,7 @@
 import React from 'react'
-import "./SpecialNav.css"
+import "./SpecialLeftNav.css"
 
-function SpecialNav() {
+function SpecialLeftNav() {
   return (
     <div>
         <div className='special__nav__content'>
@@ -20,4 +20,4 @@ function SpecialNav() {
   )
 }
 
-export default SpecialNav
+export default SpecialLeftNav

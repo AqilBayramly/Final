@@ -1,0 +1,129 @@
+.product__page__old__price {
+  text-decoration: line-through !important;
+  color: rgb(173, 181, 189);
+  font-size: 1.2em;
+}
+
+.product__page__new__price {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  font-size: 1.75em;
+}
+
+.product__page__discount__percentage {
+  color: rgb(40, 167, 69);
+  font-size: 1.2em;
+}
+
+.product__price__zone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product__page__question__icon {
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 3px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.fa-question {
+  font-size: 11px;
+  color: rgb(173, 181, 189);
+}
+
+.progress {
+  width: 290px !important;
+}
+
+.progress-bar {
+  background-color: black !important;
+}
+
+.product__price__discount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.percentage__claimed__and__time {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.percentage__claimed {
+  font-weight: 600;
+}
+
+.decrease__btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.increase__btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity__box {
+  width: 70px;
+  height: 50px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.quantity__add__product{
+  display: flex;
+}
+
+.add__btn{
+  background-color: rgb(36, 40, 40);
+  padding: 8px 40px;
+  border: none;
+  color: white;
+}
+
+.buy__now__btn{
+  background-color: rgb(255, 182, 16);
+  padding: 8px 40px;
+  border: none;
+}
+
+.add__product__zone{
+  display: flex;
+  gap: 18px;
+}
+
+.scale__balanced3{
+  font-size: 14px;
+}
+
+.product__page__balanced__compare{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.add__product__box{
+  border: 1px solid rgb(221, 221, 221);
+  padding: 15px 25px;
+  margin-top: 20px;
+  background-color: rgb(248, 249, 250);
+}

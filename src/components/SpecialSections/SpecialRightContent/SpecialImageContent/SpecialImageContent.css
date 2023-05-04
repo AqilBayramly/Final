@@ -1,0 +1,17 @@
+.special__images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.special__images3{
+    display: flex;
+    justify-content: start;
+    gap: 32px;
+}
+
+.pages__number{
+    padding-top: 30px;
+    text-align: end;
+}
