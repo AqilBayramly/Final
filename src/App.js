@@ -9,6 +9,9 @@ import { useState } from 'react'
 import Blog from './pages/Blog'
 import Special from './pages/Special'
 import ProductCard from './pages/ProductCard'
+import MyAccount from './pages/MyAccount'
+import ForgottenPassword from './pages/ForgottenPassword'
+import RegisterAccount from './pages/RegisterAccount'
 
 
 function updateScroll(par) {
@@ -32,6 +35,12 @@ function App() {
             <Route path='blog' element={<Blog />} />
             <Route path='special' element={<Special />} />
             <Route path='product' element={<ProductCard />} />
+            <Route path='account' element={<MyAccount />} />
+            <Route path='account/forgotten-password' element={<ForgottenPassword />} />
+            <Route path='account/register' element={<RegisterAccount />} />
+
+
+
 
 
           </Route>

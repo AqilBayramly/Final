@@ -1,0 +1,75 @@
+.account__register__content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.register__form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.register__form__and__rightnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.register__form__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register__form__inputs>div{
+    display: flex;
+    gap: 15px;
+}
+
+.register__form__inputs>div>input{
+    width: 440px;
+    height: 50px;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid #ced4da;
+}
+
+.register__form__inputs>input{
+    height: 50px;
+    outline: none;
+    border: 1px solid #ced4da;
+    padding-left: 15px;
+}
+
+.subscribe__checkboxes{
+    display: flex;
+    gap: 35px;
+}
+
+.privacy__zone{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+.privacy__zone>input{
+    width:18px;
+    height: 18px;
+}
+
+.privacy__zone>span>a{
+   font-weight: 700;
+}
+
+.register__acc__link{
+    color: rgb(210, 146, 0);
+    text-decoration: underline !important;
+}
+
+.register__acc__link:hover{
+    color: rgb(170, 120, 4);
+
+}
+
+.yes__no{
+    padding-left: 10px;
+}

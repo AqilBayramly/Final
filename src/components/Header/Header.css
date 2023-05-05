@@ -133,9 +133,18 @@ header{
     flex-direction: column;
 }
 
-.compare__wishlist>div>a{
+.compare__wishlist>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     text-decoration: none;
     color: rgb(108, 117, 125);
+}
+
+
+.compare__wishlist>a:hover{
+    color: #d29200;
 }
 
 .bag{

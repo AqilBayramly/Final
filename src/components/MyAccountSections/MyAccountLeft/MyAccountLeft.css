@@ -1,0 +1,85 @@
+.account__left__content{
+    display: flex;
+    gap: 33px;
+}
+
+.new__customer__box{
+    border: 1px solid rgba(0, 0, 0, .175);
+    width: 430px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 20px 25px 25px;
+}
+
+.new__costumer__btn{
+    background-color: rgb(36, 40, 40);
+    margin-top: 15px;
+    padding: 8px 0px;
+    border: none;
+    color: white;
+}
+
+.new__costumer__btn:hover{
+    background-color: rgb(29, 31, 31);
+
+}
+
+.new__customer__box>span{
+    width: 350px;
+}
+
+.returning__customer__box{
+    border: 1px solid rgba(0, 0, 0, .175);
+    width: 430px;
+    height: 400px;
+    padding: 25px 18px 25px 18px;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.account__mail__input__box>label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.account__mail__input__box>label>input{
+    outline: none;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, .175);
+}
+
+.account__password__input__box>label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.account__password__input__box>label>input{
+    outline: none;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, .175);
+}
+
+.account__password__input__box>a{
+    color: rgb(210, 146, 0);
+    font-size: 17px;
+    text-decoration: underline !important;
+}
+
+.returning__customer__box__btn{
+    background-color: rgb(255, 182, 16);
+    padding: 8px 40px;
+    border: none;
+}
+

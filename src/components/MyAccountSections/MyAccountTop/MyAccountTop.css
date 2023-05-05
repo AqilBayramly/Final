@@ -1,0 +1,20 @@
+.account_top__text{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fa-house{
+    color: rgb(209, 146, 0);
+}
+
+.account__page__home__icon>a :hover{
+    color: rgb(143, 100, 0);
+}
+
+.account__link>a{
+    color: rgb(210, 146, 0);
+}
+
+.account__link>a:hover{
+    color: rgb(173, 121, 0);
+}

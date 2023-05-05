@@ -1,0 +1,9 @@
+.account__page__content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.account__left__right__content{
+    display: flex;
+    justify-content: space-between;
+}

@@ -43,6 +43,9 @@
 
 .top__categories__menu__content{
     padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .top__categories__menu__x:hover{

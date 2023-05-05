@@ -107,17 +107,15 @@ function Header(props) {
         </form>
 
         <div className="compare__wishlist">
-          <div>
             <a href="#!">
-              <i className="fa-solid fa-scale-balanced"></i> Compare
+              <i className="fa-solid fa-scale-balanced"></i>
+               <span>Compare</span>
             </a>
-          </div>
-
-          <div>
+       
             <a href="#!">
-              <i className="fa-regular fa-heart"></i> WishList
+              <i className="fa-regular fa-heart header__heart__icon"></i>
+              <span>WishList</span>
             </a>
-          </div>
         </div>
 
         <div className="bag" onClick={() => setShowCartShop(!showCartShop)}>
