@@ -14,7 +14,7 @@ function AboutUsTop() {
             <p className='about__us__line'></p>
         </div>
 
-        <div>
+        <div className='about__us__all__text'>
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <h3>Tincidunt dui ut ornare lectus</h3>

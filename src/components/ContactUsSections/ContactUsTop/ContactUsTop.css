@@ -13,7 +13,7 @@
     padding-bottom: 3.125rem;
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 89%;
     margin: 0 auto;
 }
 
@@ -34,4 +34,17 @@
 
 .contact__top_box__content>h5{
     margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact__top_boxes{
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 89%;
+        margin: 0 auto;
+    }
 }

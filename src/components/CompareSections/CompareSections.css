@@ -1,0 +1,80 @@
+.compare__content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product__compare__box{
+    border-left: 1px solid #ddd;
+    display: flex;
+    padding-bottom: 3rem!important;
+}
+
+.compare__boxes__info{
+    display: flex;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-top: none;
+}
+
+.specifications{
+    border-right: 1px solid #ddd;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.compare__product__info{
+    border-right: 1px solid #ddd;
+    width: 271px;
+    padding: 12px 20px 12px 10px;
+}
+
+.compare__product__name{
+    border-right: 1px solid #ddd;
+    width: 271px;
+    padding: 12px 20px 12px 10px;
+}
+
+.compare__product__name>a{
+    color: #d29200;
+}
+
+.compare__product__image{
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.compare_details{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.technical{
+    border-top: none;
+    border-left: none;
+    width: 100%;
+}
+
+.compare__boxes__btns{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 260px;
+    padding: 10px;
+}
+
+.compare__add__btn{
+    background-color: #ffb610;
+    outline: none;
+    border: none;
+    padding: 8px;
+}
+
+.compare__remove__btn{
+    background-color:  #dc3545;
+    outline: none;
+    border: none;
+    padding: 8px;
+   color: white;
+}

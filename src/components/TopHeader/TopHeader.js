@@ -18,13 +18,13 @@ function TopHeader() {
             </div>
             <div className="compare__wishlist compare__top__header">
           <div>
-            <a href="#!">
+            <a className='top__header__compare__link' href="/compare">
               <i className="fa-solid fa-scale-balanced"></i> Compare
             </a>
           </div>
 
           <div>
-            <a href="#!">
+            <a className='top__header__compare__link' href="#!">
               <i className="fa-regular fa-heart"></i> WishList
             </a>
           </div>

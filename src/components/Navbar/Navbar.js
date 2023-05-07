@@ -103,19 +103,15 @@ function Navbar() {
           <a href="/special">Special</a>
           <a href="/blog">Blog</a>
           <a href="/about">About Us</a>
-          <a href="#!">
-
-          <div class="dropdown add__ons__drop">
-  <a class="btn btn-secondary dropdown-toggle add__ons__btn" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-  AddOns
-  </a>
-  <ul class="dropdown-menu dropdown__show">
-    <li><a class="dropdown-item" href="#!">Modules</a></li>
-    <li><a class="dropdown-item" href="#!">Designs</a></li>
-    <li><a class="dropdown-item" href="#!">Widgets</a></li>
+          <a className="addons__nav__text" href="#!">AddOns <i class="fa-solid fa-caret-down"></i>
+  <ul className="dropdown-menu dropdown__show">
+    <li><a className="dropdown-item" href="#!">Modules</a></li>
+    <li><a className="dropdown-item" href="#!">Designs</a></li>
+    <li><a className="dropdown-item" href="#!">Widgets</a></li>
   </ul>
-</div>
           </a>
+
+
           <a href="/contact">Contact Us</a>
         </div>
         </nav>

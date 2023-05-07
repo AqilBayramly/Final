@@ -144,7 +144,7 @@ header{
 
 
 .compare__wishlist>a:hover{
-    color: #d29200;
+    color: rgb(210, 146, 0);
 }
 
 .bag{
@@ -235,11 +235,6 @@ header{
 }
 
 @media only screen and (max-width: 1023px) {
-    header{
-        margin: 0 auto;
-        max-width: 97%;
-    }
-
     .compare__wishlist{
         display: none;
     }

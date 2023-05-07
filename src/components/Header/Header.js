@@ -107,7 +107,7 @@ function Header(props) {
         </form>
 
         <div className="compare__wishlist">
-            <a href="#!">
+            <a href="/compare">
               <i className="fa-solid fa-scale-balanced"></i>
                <span>Compare</span>
             </a>
