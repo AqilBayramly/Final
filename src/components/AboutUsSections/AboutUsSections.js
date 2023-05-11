@@ -1,5 +1,5 @@
 import React from 'react'
-import "./AboutUsTop.css"
+import "./AboutUsSections.css"
 
 function AboutUsTop() {
   return (

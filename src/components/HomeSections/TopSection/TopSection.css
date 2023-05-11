@@ -1,19 +1,26 @@
 .top {
-    max-width: 1200px;
+    max-width: 89%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 1.875rem;
+    word-wrap: break-word;
+
 }
 
 .top__section__text {
-    max-width: 1000px;
+    max-width: 89%;
     margin: 0 auto;
     margin-top: 45px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
     align-items: center;
+    text-align: center;
 }
 
-.fa-truck {
+.truck__icon__top__section{
     color: rgb(255, 182, 16);
     font-size: 30px;
     margin-right: 10px;
@@ -33,7 +40,25 @@
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
+    .top{
+        max-width: 97%;
+    }
 
+    .top__section__text{
+        max-width: 97%;
+    }
+}
 
+@media only screen and (max-width: 600px) {
+    .top{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .truck__icon__top__section{
+       display: none;
+    }
 }

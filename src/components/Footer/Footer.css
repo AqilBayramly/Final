@@ -5,6 +5,12 @@
 
 .black__line__content{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 89%;
     padding-top: 4.0625rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .black__line__content{
+        padding-top: 2.0625rem;
+    }
 }

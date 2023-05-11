@@ -127,7 +127,6 @@
     position: absolute;
     top: 60px;
     left: 0;
-    /* margin-top: 174px !important; */
     border-radius: 0px;
 }
 
@@ -136,8 +135,21 @@
 }
 
 
+
+
 @media only screen and (max-width: 1023px) {
     .btn__shop__category{
         display: none;
+    }
+
+    .yellow__line__content {
+        max-width: 97%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .yellow__line__content {
+    display: none;
     }
 }

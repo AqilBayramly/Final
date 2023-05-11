@@ -67,6 +67,10 @@
     margin: 0 auto;
 }
 
+.shop__category__images__swiper{
+    text-align: center;
+}
+
 
 .shop__category__text__swiper{
     color: black;

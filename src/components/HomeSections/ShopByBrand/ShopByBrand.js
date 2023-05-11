@@ -21,6 +21,29 @@ function ShopByBrand() {
     
         modules={[]}
         className="mySwiper"
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          530:{
+            slidesPerView:2,
+          },
+          780:{
+            slidesPerView:3
+          },
+          1000:{
+            slidesPerView:4
+          },
+          1250:{
+            slidesPerView:5
+          },
+          1500:{
+            slidesPerView:6
+          },
+          1700:{
+            slidesPerView:7
+          }
+        }}
       >
         <SwiperSlide>
           <div className='shop__brand__images__swiper'>
@@ -66,9 +89,10 @@ function ShopByBrand() {
         </SwiperSlide>
       </Swiper>
     </>
-    
             </div>
+
             <div className='end__of_season__sale__content'>
+                <img src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/Banner/deal-banner-2400x518.webp' alt=''></img>
                 <div className='end__of_season__sale__text'>
                 <h3>End of season sale</h3>
 
@@ -90,7 +114,6 @@ function ShopByBrand() {
                 </div>
 
                 </div>
-                <img src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/Banner/deal-banner-2400x518.webp' alt=''></img>
             </div>
 
         </div>

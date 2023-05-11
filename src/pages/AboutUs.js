@@ -1,10 +1,10 @@
 import React from 'react'
-import AboutUsTop from '../components/AboutUsSections/AboutUsTop/AboutUsTop'
+import AboutUsSections from '../components/AboutUsSections/AboutUsSections'
 
 function AboutUS() {
   return (
     <div>
-      <AboutUsTop></AboutUsTop>
+      <AboutUsSections/>
     </div>
   )
 }

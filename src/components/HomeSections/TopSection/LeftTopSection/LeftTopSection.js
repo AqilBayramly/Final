@@ -12,9 +12,8 @@ import { Pagination, Navigation } from "swiper";
 
 function LeftTopSection() {
   return (
-    <div>
-      <div className='top_swiper'>
-        <div className='left__photo'>
+   
+        <div className='left__photo col-8'>
           <>
             <Swiper
               pagination={{
@@ -47,8 +46,6 @@ function LeftTopSection() {
             </Swiper>
           </>
         </div>
-      </div>
-    </div>
   )
 }
 

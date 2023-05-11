@@ -3,7 +3,6 @@ import "./TopHeader.css"
 
 function TopHeader() {
   return (
-    <div>
         <div className='top__header__content'>
             <div className='top__header__text'>
                 <span>Buy one get one free on first order</span>
@@ -32,7 +31,6 @@ function TopHeader() {
             </div>
 
         </div> 
-    </div>
   )
 }
 

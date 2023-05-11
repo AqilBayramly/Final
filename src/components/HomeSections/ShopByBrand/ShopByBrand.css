@@ -1,5 +1,5 @@
 .shop__by__brand__content{
-    max-width: 1200px;
+    max-width: 89%;
     margin: 0 auto;
     padding-top: 5rem;
     margin-bottom: 5rem;
@@ -14,6 +14,8 @@
 
 .shop__by__brand__swiper{
     margin-bottom: 3.125rem;
+    display: flex;
+    justify-content: center;
 }
 
 .shop__brand__images__swiper>a>img{
@@ -23,7 +25,7 @@
 }
 
 .end__of_season__sale__content>img{
-    max-width: 1170px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -33,8 +35,9 @@
 
 .end__of_season__sale__text{
     position: absolute;
-    top: 65px;
-    left: 125px;
+    top:20%;
+    left: 10%;
+    max-width: 30%;
 }
 
 .end__of_season__time{
@@ -52,8 +55,6 @@
 }
 
 .season__time__two__points{
-    /* display: flex;
-    align-items: center; */
     font-size: 45px;
 }
 
@@ -69,5 +70,4 @@
 .season__time__text__hours{
     font-size: 22px;
     color: rgb(33, 37, 41);
-
 }

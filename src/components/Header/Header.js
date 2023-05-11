@@ -3,11 +3,15 @@ import "./Header.css";
 import CartShow from "../CartShow/CartShow";
 import { useState } from "react";
 import TopCategoriesMenu from "../TopCategoriesMenu/TopCategoriesMenu";
+import SearchMenuShow from "../SearchMenuShow/SearchMenuShow";
+import SecondSearchInput from "./SecondSearchInput/SecondSearchInput";
+
 
 function Header(props) {
   const {setScroll} = props;
   const [showCartShop, setShowCartShop] = useState(false);
   const [categoriesMenuShow, setCategoriesMenu] = useState(false);
+  const [searchMenuShow, setsearchMenuShow] = useState(false);
 
   setScroll(!showCartShop);
 
@@ -21,6 +25,10 @@ function Header(props) {
         categoriesMenuShow && <TopCategoriesMenu setCategoriesMenu={setCategoriesMenu} />
       }
 
+      {
+        searchMenuShow && <SearchMenuShow setsearchMenuShow={setsearchMenuShow} />
+      }
+
       <header>
         <div className="hamburger__logo"  >
           <i className="fa-solid fa-bars" onClick={() => setCategoriesMenu(!categoriesMenuShow)}></i>
@@ -32,7 +40,7 @@ function Header(props) {
             />
           </a>
         </div>
-        <form>
+        <form className="header__search__nav">
           <div className="header__input">
             <div className="dropdown header__dropdown__menu">
               <button
@@ -44,7 +52,7 @@ function Header(props) {
                 <p className="header__dropdown__menu">
                   All Categories
                 </p>
-                <i class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-down "></i>
               </button>
               <ul className="dropdown-menu">
                 <li>
@@ -119,7 +127,12 @@ function Header(props) {
         </div>
 
         <div className="bag" onClick={() => setShowCartShop(!showCartShop)}>
+          <div className="bag__icon">
           <i className="bi bi-handbag bag__shopping"></i>
+          <div className="bag__quantity">
+            0
+          </div>
+          </div>
           <div className="price__text">
             <div>
               <span className="item">0 item(s) - </span>
@@ -128,11 +141,25 @@ function Header(props) {
             <p style={{ margin: "0" }}>Shopping Cart</p>
           </div>
         </div>
+        
+          <div className="hamburger__menu__bag">
+          <div className="bag__icon" onClick={() => setShowCartShop(!showCartShop)}>
+          <i className="bi bi-handbag bag__shopping" ></i>
+          <div className="bag__quantity">
+            0
+          </div>
+          </div >
+          <div className="hamburger__icon__bag" onClick={() => setsearchMenuShow(!searchMenuShow)}>
+          <i class="fa-solid fa-bars"></i>
+          </div>
+          </div>
 
         <div class="up__icon" onClick={() => window.scrollTo(0, 0)}>
           <a href="#start"><i  class="fa-solid fa-angle-up"></i></a>
         </div>
       </header>
+
+     <SecondSearchInput/>
     </div>
   );
 }

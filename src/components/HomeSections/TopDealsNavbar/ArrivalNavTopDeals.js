@@ -21,7 +21,34 @@ function ArrivalNavTopDeals() {
         <div>    
             <div className='new__arrival__swiper'>
             <>
-                <Swiper spaceBetween={50} slidesPerView={4} navigation={true} modules={[Navigation]} className="mySwiper" >
+                <Swiper 
+                spaceBetween={30}
+                slidesPerView={4}
+                navigation={true}
+                modules={[Navigation]}
+                className="mySwiper" 
+                breakpoints={{
+                    0: {
+                      slidesPerView: 1,
+                    },
+                    680: {
+                      slidesPerView: 2,
+                    },
+                    910:{
+                      slidesPerView:3
+                    },
+                    1200:{
+                      slidesPerView:4
+                    },
+                    1500:{
+                      slidesPerView:4
+                    },
+                    1700:{
+                      slidesPerView:4
+                    }
+                  }}
+                >
+                    
                     <SwiperSlide>
                         <div className='new__arrival__box'>
 

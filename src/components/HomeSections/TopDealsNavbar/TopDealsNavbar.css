@@ -15,8 +15,10 @@
   }
 
   .new__arrival__swiper{
-    max-width: 1200px;
+    max-width: 89%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
     padding-bottom: 5rem;
   }
 

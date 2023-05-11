@@ -21,7 +21,35 @@ function LatestProducts() {
         <h3>Latest Products</h3>
         <div className='latest__products__swiper'>
         <>
-      <Swiper slidesPerView={5} navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper
+      slidesPerView={5}
+      navigation={true}
+      modules={[Navigation]}
+      className="mySwiper"
+       breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          530:{
+            slidesPerView:2,
+          },
+          780:{
+            slidesPerView:3
+          },
+          1000:{
+            slidesPerView:4
+          },
+          1250:{
+            slidesPerView:5
+          },
+          1500:{
+            slidesPerView:6
+          },
+          1700:{
+            slidesPerView:7
+          }
+        }}
+      >
         <SwiperSlide>
         <div className='top__deals__box'>
 

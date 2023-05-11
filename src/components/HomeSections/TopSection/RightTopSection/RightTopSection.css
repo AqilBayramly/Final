@@ -2,8 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 41px;
+    /* gap: 31px; */
 
+}
+
+.right__photo__top{
+    width: 100%;
 }
 
 .right__photo__bottom {
@@ -42,6 +46,14 @@
     z-index: 6;
 }
 
-.right__photo__bottom img {
+.right__photo__bottom>img {
+    width: 100%;
     z-index: 5;
+}
+
+@media only screen and (max-width: 600px) {
+    .right__photo{
+       flex-direction: row;
+       gap: 10px;
+    }
 }

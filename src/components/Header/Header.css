@@ -70,13 +70,13 @@
 }
 
 header{
+    max-width: 89%;
+    margin: 0 auto;
     padding-top: 1.375rem;
     padding-bottom: 1.375rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    max-width: 89%;
 }
 
 .search__input{
@@ -101,12 +101,15 @@ header{
 }
 
 .search__icon{
-    font-size: .70em;
-    border-radius: 62.5rem;
+    border-radius:50px;
+    height: 37px;
     border: none;
-    color: #000;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(255, 182, 16);
-    padding: 0.9375rem 0.9375rem;
+    padding: 0.9375rem 0.8375rem;
     line-height: 1;
     cursor: pointer;
 }
@@ -125,9 +128,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 .category p {
     margin: 0;
 }
+
 .compare__wishlist{
     display: flex;
     flex-direction: column;
@@ -142,25 +147,46 @@ header{
     color: rgb(108, 117, 125);
 }
 
-
 .compare__wishlist>a:hover{
     color: rgb(210, 146, 0);
 }
 
 .bag{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
     cursor: pointer;
 }
 
 .bag__shopping{
     font-size: 40px;
 }
+
+.bag__icon{
+    position: relative;
+}
+
+.bag__quantity{
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    background-color: gold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    display: none;
+}
+
 .price__text{
+    display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    display: flex;
+    word-wrap: none;
 }
 
 .price__text>div>span{
@@ -191,9 +217,6 @@ header{
     font-size: 1.25rem;
     padding: 0.5rem 1rem;
     background-color: rgb(255, 182, 16);
-    /* opacity: 0 !important;
-    transform: translateY(100px);
-    transition: .5s; */
     z-index: 5;
     cursor: pointer;
 }
@@ -214,13 +237,36 @@ header{
     display: none;
 }
 
+.navbar__search__input{
+    display: none ;
+}
+
+.navbar__input{
+    padding: 0.1875rem;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 62.5rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 45px;
+}
+
+.hamburger__menu__bag{
+    display: none;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
 
 
 @media only screen and (max-width: 1280px) {
     .header__input{
         width: 500px;
     }
-    
 }
 
 @media only screen and (max-width: 1200px) {
@@ -231,26 +277,29 @@ header{
         width: 122px;
         margin-left: 10px;
     }
-    
 }
 
 @media only screen and (max-width: 1023px) {
+    header{
+        max-width: 97%;
+    }
+
     .compare__wishlist{
         display: none;
     }
 
     .header__input{
-        width: 530px;
+        width: 510px;
     }
 }
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 950px) {
     .header__input{
         width: 470px;
     }
 }
 
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 908px) {
     .header__input{
         width: 430px;
     }
@@ -262,8 +311,67 @@ header{
     }
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 830px) {
     .header__input{
-        width: 385px;
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+    .header__input{
+        width: 360px;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    .header__input{
+        width: 345px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .header__search__nav{
+        display: none;
+    }
+
+    .compare__wishlist{
+        display: block;
+    }
+
+    .search__icon{
+        border-radius:50px;
+        height: 37px;
+        border: none;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 182, 16);
+        padding: 0.9375rem 0.8375rem;
+        line-height: 1;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .compare__wishlist{
+        display: none;
+    }
+    .bag__quantity{
+        display: flex;
+    }
+
+    .bag{
+        display: none;
+    }
+    .hamburger__menu__bag{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .search__input{
+        margin-right: 50px;
     }
 }

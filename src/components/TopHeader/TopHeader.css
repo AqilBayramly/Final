@@ -91,7 +91,6 @@
 }
 
 
-
 @media only screen and (max-width: 1023px) {
     .top__header__content {
         max-width: 97%;
@@ -111,4 +110,16 @@
     flex-direction: row;
     gap: 25px;
   }
+}
+
+@media only screen and (max-width: 767px) {
+    .compare__top__header{
+       display: none !important;
+      }
+}
+
+@media only screen and (max-width: 575px) {
+    .top__header__content{
+        display: none;
+    }
 }

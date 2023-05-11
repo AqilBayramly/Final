@@ -10,7 +10,7 @@
 
 .top__categories__menu{
     width: 320px;
-    min-height: 100vh;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,8 +18,22 @@
     z-index: 50;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
+.top__categories__menu::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  .top__categories__menu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .top__categories__menu::-webkit-scrollbar-thumb {
+    background-color: orange;
+    outline: 1px solid orange;
+    border-radius: 50px;
 
+  }
 .top__categories__menu__header{
     background-color: rgba(36,40,40);
     height: 55px;
@@ -55,6 +69,13 @@
 .top__categories__menu__text{
     display: flex;
     padding-left: 15px;
+}
+
+.categories__icon{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top__categories__menu__text>i{

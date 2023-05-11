@@ -1,3 +1,52 @@
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
 .top__deals__text{
     padding-top: 5rem;
     margin-bottom: 1.375rem;
@@ -8,19 +57,20 @@
 }
 
 .top__deals__content{
-    max-width: 1200px;
+    max-width: 89%;
     margin: 0 auto;
 }
 
 .top__deals__box{
     border: 1px solid rgb(221, 221, 221);
-    width: 220px;
+    width: 215px;
     position: relative;
 }
 
 .top__deals__images{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 1.875rem;
     user-select: none;
@@ -61,7 +111,9 @@
 
   .top__deals__bottom__images{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
   }
 
   .top__deals__box:hover .all__sale__time{
@@ -77,3 +129,10 @@
     margin: 0 auto;
     margin-top: 10px;
   }
+
+
+  /* @media only screen and (max-width: 940px) {
+    .header__input{
+        width: 470px;
+    }
+} */

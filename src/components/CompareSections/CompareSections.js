@@ -2,20 +2,29 @@ import React from 'react'
 import "./CompareSections.css"
 
 function CompareSections() {
-  return (
-    <div className='compare__content'>
-               <div className='account_top__text'>
+    return (
+        <div className='compare__content'>
+            <div className='account_top__text'>
                 <span className='account__page__home__icon'>
                     <a href='/'>
                         <i class="fa-solid fa-house"></i>&nbsp;
                     </a>
                 </span>
-                    &nbsp;&nbsp;/&nbsp;&nbsp;
+                &nbsp;&nbsp;/&nbsp;&nbsp;
                 <span>Product Comparison</span>
-            <hr></hr>
+                <hr></hr>
             </div>
 
-            <h4>Product Comparison</h4>
+            <div id="content" class="col-md-12"> <h1 className="h4">Product Comparison</h1> <table className="table table-responsive table-bordered"> <thead> <tr> <td colspan="4"><strong>Product Details</strong></td> </tr> </thead> <tbody> <tr> <td>Product</td> <td><a class="text-decoration-none" href="https://demo.pocotheme.com/1/htc-touch-hd"><strong>HTC Touch HD</strong></a></td> <td><a class="text-decoration-none" href="https://demo.pocotheme.com/1/nikon-d300"><strong>Nikon D300</strong></a></td> <td><a class="text-decoration-none" href="https://demo.pocotheme.com/1/ipod-nano"><strong>iPod Nano</strong></a></td> </tr> <tr> <td>Image</td> <td class="text-center"> <img src="https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/2-90x101.webp" alt="HTC Touch HD" title="HTC Touch HD" class="img-thumbnail"></img> </td> <td class="text-center"> <img src="https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/3-90x101.webp" alt="Nikon D300" title="Nikon D300" class="img-thumbnail"></img> </td> <td class="text-center"> <img src="https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/product/7-90x101.webp" alt="iPod Nano" title="iPod Nano" class="img-thumbnail"></img> </td> </tr> <tr> <td>Price</td> <td> <strike>$120.00</strike> $80.00
+            </td> <td> <strike>$80.00</strike> $49.00
+                </td> <td> <strike>$100.00</strike> $80.00
+                </td> </tr> <tr> <td>Model</td> <td>Product 1</td> <td>Product 4</td> <td>Product 9</td> </tr> <tr> <td>Brand</td> <td>HTC</td> <td>Nikon</td> <td>Apple</td> </tr> <tr> <td>Availability</td> <td>In Stock</td> <td>In Stock</td> <td>In Stock</td> </tr> <tr> <td>Rating</td> <td class="rating"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> <br /> Based on 3 reviews.</td> <td class="rating"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> <br /> Based on 3 reviews.</td> <td class="rating"> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i> <i class="far fa-star"></i> <br /> Based on 3 reviews.</td> </tr> <tr> <td>Summary</td> <td class="description">HTC Touch - in High Definition. Watch music videos and streaming content in awe-inspiring high definition clarity for a mobile experience you never thought possible. Seductively sleek, the HTC Touc..</td> <td class="description">Engineered with pro-level features and performance, the 12.3-effective-megapixel D300 combines brand new technologies with advanced features inherited from Nikon's newly announced D3 profes..</td> <td class="description">Video in your pocket.
+                    Its the small iPod with one very big idea: video. The worlds most popular music player now lets you enjoy movies, TV shows, and more on a two-inch display thats 65% ..</td> </tr> <tr> <td>Weight</td> <td>146.40g</td> <td>0.00kg</td> <td>5.00kg</td> </tr> <tr> <td>Dimensions (L x W x H)</td> <td>0.00cm x 0.00cm x 0.00cm</td> <td>0.00in x 0.00in x 0.00in</td> <td>0.00mm x 0.00mm x 0.00mm</td> </tr> </tbody> <thead> <tr> <td colspan="4"><strong>Memory</strong></td> </tr> </thead> <tbody> <tr> <td>colour</td> <td></td> <td></td> <td> White</td> </tr> </tbody> <tbody><tr> <td></td> <td> <div class="d-grid gap-2"> <input type="button" value="Add to Cart" class="compare__add__btn" onclick="cart.add('28', '1');"></input> <a href="https://demo.pocotheme.com/1/compare?remove=28" class="compare__remove__btn">Remove</a> </div> </td> <td> <div class="d-grid gap-2"> <input type="button" value="Add to Cart" class="compare__add__btn" onclick="cart.add('31', '1');"></input> <a href="https://demo.pocotheme.com/1/compare?remove=31" class="compare__remove__btn">Remove</a> </div> </td> <td> <div class="d-grid gap-2"> <input type="button" value="Add to Cart" class="compare__add__btn" onclick="cart.add('36', '1');"></input> <a href="https://demo.pocotheme.com/1/compare?remove=36" class="compare__remove__btn">Remove</a> </div> </td> </tr> </tbody></table> </div>
+
+
+
+
+            {/* <h4>Product Comparison</h4>
             <div className='compare_details'>
                 <h6>Product Details</h6>
             </div>
@@ -302,17 +311,17 @@ function CompareSections() {
             </div>
 
             
-            </div>
-
-          
-           
+            </div> */}
 
 
 
 
 
-    </div>
-  )
+
+
+
+        </div>
+    )
 }
 
 export default CompareSections

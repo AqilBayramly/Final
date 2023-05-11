@@ -5,7 +5,6 @@ import SwiperDealOfDay from './SwiperDealOfDay/SwiperDealOfDay'
 
 function DealOfDay() {
   return (
-    <div>
         <div className='deal__of__day__content'>
             <div className='deal__of__day__photos'>
                 <a href='#!'>
@@ -22,7 +21,6 @@ function DealOfDay() {
             </div>
 
         </div>
-    </div>
   )
 }
 
