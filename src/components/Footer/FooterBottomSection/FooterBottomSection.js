@@ -41,7 +41,7 @@ function FooterBottomSection() {
             Vivo |
           </a>
           <a href='#!'>
-            Xiomi |
+            Xiomi
           </a>
         </div>
       </div>

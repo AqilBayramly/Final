@@ -88,8 +88,18 @@
         display: block;
     }
 
+    .footer__top{
+        display: flex;
+        flex-direction: column;
+    }
+
     .footer__pay{
-        display: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__input{
+        width: 100%;
     }
 
     .footer__search__input{
@@ -97,26 +107,10 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .footer__input{
-        width: 440px;
-    }
-}
+
 
 @media only screen and (max-width: 768px) {
     .newsletter{
         display: none;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .footer__input{
-        width: 370px;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .footer__input{
-        width: 320px;
     }
 }

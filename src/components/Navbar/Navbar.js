@@ -21,77 +21,77 @@ function Navbar() {
           <ul className="dropdown-menu dropdown__category">
             <li>
               <a className="dropdown-item" href="#!">
-                Action
+              Components
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Another action
+              Cameras
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Something else here
+              Tablets
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Action
+              Software
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Another action
+              Phones & PDAs
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Something else here
+              MP3 Players
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Action
+              Laptops & Notebooks
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Another action
+              Monitors
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Something else here
+              Printers
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Action
+              Mice and Trackballs
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Another action
+              Desktops
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Something else here
+              Scanners
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Action
+              Washing machine
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Another action
+              Gaming consoles
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#!">
-                Something else here
+              Air conditioner
               </a>
             </li>
           </ul>
