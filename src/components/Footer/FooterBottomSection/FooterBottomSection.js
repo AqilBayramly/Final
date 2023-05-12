@@ -4,45 +4,47 @@ import "./FooterBottomSection.css"
 function FooterBottomSection() {
   return (
     <div>
-        <div className='footer__bottom__text'>
-            <h6>Popular Brand:</h6>
-            <a href='#!'>
-            <p>Apple |</p>
-            </a>
-            <a href='#!'>
-            <p>Canon |</p>
-            </a>
-            <a href='#!'>
-            <p> HTC |</p>
-            </a>
-            <a href='#!'>
-            <p>Hewlett-Packard |</p>
-            </a>
-            <a href='#!'>
-            <p>Lenovo |</p>
-            </a>
-            <a href='#!'>
-            <p>Micromax |</p>
-            </a>
-            <a href='#!'>
-            <p>Nikon |</p>
-            </a>
-            <a href='#!'>
-            <p>Nokia |</p>
-            </a>
-            <a href='#!'>
-            <p>Samsung |</p>
-            </a>
-            <a href='#!'>
-            <p>Sony |</p>
-            </a>
-            <a href='#!'>
-            <p>Vivo |</p>
-            </a>
-            <a href='#!'>
-            <p>Xiomi</p>
-            </a>
+      <div className='footer__bottom__text'>
+        <h6>Popular Brand:</h6>
+        <div className='footer__bottom__links'>
+          <a href='#!'>
+            Apple |
+          </a>
+          <a href='#!'>
+            Canon |
+          </a>
+          <a href='#!'>
+            HTC |
+          </a>
+          <a href='#!'>
+            Hewlett-Packard |
+          </a>
+          <a href='#!'>
+            Lenovo |
+          </a>
+          <a href='#!'>
+            Micromax |
+          </a>
+          <a href='#!'>
+            Nikon |
+          </a>
+          <a href='#!'>
+            Nokia |
+          </a>
+          <a href='#!'>
+            Samsung |
+          </a>
+          <a href='#!'>
+            Sony |
+          </a>
+          <a href='#!'>
+            Vivo |
+          </a>
+          <a href='#!'>
+            Xiomi |
+          </a>
         </div>
+      </div>
     </div>
   )
 }

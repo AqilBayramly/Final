@@ -9,7 +9,7 @@ function DealOfDay() {
             <div className='deal__of__day__photos'>
                 <a href='#!'>
               <div className='dod__left__right__photo'>
-                <img  src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/Banner/side-banner3-380x700.webp' alt='iMac'></img>
+                <img src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/megastore-3/Banner/side-banner3-380x700.webp' alt='iMac'></img>
               </div>
                 </a>
                 <SwiperDealOfDay></SwiperDealOfDay>

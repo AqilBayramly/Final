@@ -25,22 +25,22 @@ function ShopByBrand() {
           0: {
             slidesPerView: 1,
           },
-          530:{
+          400:{
             slidesPerView:2,
           },
-          780:{
+          680:{
             slidesPerView:3
           },
-          1000:{
+          860:{
             slidesPerView:4
           },
-          1250:{
+          1050:{
             slidesPerView:5
           },
-          1500:{
+          1200:{
             slidesPerView:6
           },
-          1700:{
+          1500:{
             slidesPerView:7
           }
         }}

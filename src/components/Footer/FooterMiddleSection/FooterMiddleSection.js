@@ -12,40 +12,23 @@ function FooterMiddleSection() {
 
         <div className='my__account'>
         <h6 className='footer__head'>MY ACCOUNT</h6>
-        <p>
-        <a href='#!'>My order</a>
-        </p>
-        <p>
+        <div className='my__account__links'>
         <a href='#!'>Return</a>
-        </p>
-        <p>
         <a href='#!'>Support</a>
-        </p>
-        <p>
         <a href='#!'>Tracking</a>
-        </p>
-        <p>
         <a href='#!'>Wishlist</a>
-        </p>
+        </div>
         </div>
 
         <div className='quick__links'>
         <h6 className='footer__head'>QUICK LINKS</h6>
-        <p>
+        <div className='my__account__links'>
         <a href='#!'>About Us</a>
-        </p>
-        <p>
         <a href='#!'>Blog</a>
-        </p>
-        <p>
         <a href='#!'>Blog</a>
-        </p>
-        <p>
         <a href='#!'>Special</a>
-        </p>
-        <p>
         <a href='#!'>Testimonal</a>
-        </p>
+        </div>
         </div>
 
         <div className='touch'>

@@ -46,7 +46,18 @@
     border-right: 1px solid rgb(33, 33, 33);
     margin-left: 50px;
 }
-.my__account>p :hover{
+
+.my__account__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.my__account__links>a{
+    color: rgb(119, 119, 119);
+
+}
+
+.my__account>div :hover{
     color: rgb(169, 117, 0);
 }
 
@@ -59,11 +70,68 @@
     margin-left: 50px;
 }
 
-.quick__links>p :hover{
+.quick__links>div :hover{
     color: rgb(169, 117, 0);
 }
 
 .touch>p>i{
     padding-right: 10px;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .footer__alltext{
+        display: flex;
+        flex-direction: column;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgb(33, 33, 33);
+    }
+
+    .footer__about{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgb(33, 33, 33);
+        padding-bottom: 15px;
+    }
+
+    .footer__about>p{
+        color: rgb(119, 119, 119);
+        width: 100%;
+    }
+
+    .my__account{
+        margin-top: 15px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(33, 33, 33);
+        margin-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .quick__links{
+        margin-top: 15px;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(33, 33, 33);
+        margin-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .my__account__links{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .touch{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
+
+
+
+
 

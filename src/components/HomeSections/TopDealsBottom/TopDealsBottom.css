@@ -5,7 +5,7 @@
     }
     
     .top__deals__bottom__content{
-        max-width: 1200px;
+        max-width: 89%;
         margin: 0 auto;
     }
     
@@ -34,5 +34,11 @@
         font-weight: 600;
     }
     
+
+    @media only screen and (max-width: 1023px) {
+        .top__deals__bottom__content{
+            max-width: 97%;
+        }
+    }
     
     

@@ -37,7 +37,6 @@
     position: absolute;
     top:20%;
     left: 10%;
-    max-width: 30%;
 }
 
 .end__of_season__time{
@@ -70,4 +69,75 @@
 .season__time__text__hours{
     font-size: 22px;
     color: rgb(33, 37, 41);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .end__of_season__sale__text>h3{
+        font-size: 30px;
+    }
+
+    .season__time__two__points{
+        font-size: 40px;
+    }
+    
+    .season__time__text__number{
+        font-size: 25px;
+    }
+    
+    .season__time__text__hours{
+        font-size: 18px;
+    }
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    .shop__by__brand__content{
+        max-width: 97%;
+    }
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .end__of_season__sale__text>h3{
+        font-size: 25px;
+    }
+
+    .season__time__two__points{
+        font-size: 35px;
+    }
+    
+    .season__time__text__number{
+        font-size: 22px;
+    }
+    
+    .season__time__text__hours{
+        font-size: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 730px) {
+    .end__of_season__sale__text>h3{
+        font-size: 20px;
+    }
+
+    .season__time__two__points{
+        font-size: 32px;
+    }
+    
+    .season__time__text__number{
+        font-size: 20px;
+    }
+    
+    .season__time__text__hours{
+        font-size: 13px;
+    }
+    
+}
+
+@media only screen and (max-width: 575px) {
+    .end__of_season__sale__content{
+        display: none;
+    }
 }

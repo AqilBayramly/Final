@@ -64,6 +64,10 @@
 
 
 @media only screen and (max-width: 1200px) {
+    .footer__top{
+        padding-bottom: 2rem;
+    }
+
     .newsletter{
         display: none;
     }
@@ -80,11 +84,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .footer__top{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 30px;
+    .newsletter{
+        display: block;
+    }
+
+    .footer__pay{
+        display: none;
     }
 
     .footer__search__input{
@@ -95,6 +100,12 @@
 @media only screen and (max-width: 600px) {
     .footer__input{
         width: 440px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .newsletter{
+        display: none;
     }
 }
 

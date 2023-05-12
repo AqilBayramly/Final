@@ -11,8 +11,6 @@ function Footer() {
         <FooterTopSection></FooterTopSection>
         <FooterMiddleSection></FooterMiddleSection>
         <FooterBottomSection></FooterBottomSection>
-
-
       </div>
     </div>
   )

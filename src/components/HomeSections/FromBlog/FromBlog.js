@@ -28,7 +28,7 @@ function FromBlog() {
           860: {
             slidesPerView: 2,
           },
-          1200:{
+          1300:{
             slidesPerView:3
           },
           1500:{

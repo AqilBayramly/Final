@@ -19,7 +19,7 @@
 
 .from__blog__white__box{
     background-color: white;
-    width: 95%;
+    width: 378px;
 }
 
 .from__blog__white__box__content{
@@ -27,8 +27,6 @@
     margin: 0 auto;
     padding-top: 8px;
 }
-
-
 
 .from__blog__yellow__box{
     width: 4.7857em;
@@ -88,4 +86,10 @@
     height: 15px;
     width: 1px;
 display: block;
+}
+
+@media only screen and (max-width: 1023px) {
+    .from__blog__content{
+        max-width: 97%;
+    }
 }

@@ -1,19 +1,35 @@
 .footer__bottom__text{
-    max-width: 1150px;
-    margin: 0 auto;
     display: flex;
+    gap: 5px;
     padding-top: 1.875rem;
+}
+
+.footer__bottom__links{
+    display: flex;
+    gap: 10px;
 }
 
 .footer__bottom__text>h6{
     color: white;
+    display: flex;
 }
 
-.footer__bottom__text>a>p{
-    padding-left: 10px;
+.footer__bottom__links>a{
     color: rgb(119, 119, 119);
 }
 
 .footer__bottom__text :hover{
     color: rgb(247, 173, 0);
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer__bottom__text{
+    max-width: 97%;
+    }
+
+    .footer__bottom__text{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }

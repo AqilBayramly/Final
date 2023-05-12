@@ -84,6 +84,7 @@
 
 .nav__text>a {
     height: 100%;
+    white-space: nowrap;
     align-items: center;
     display: flex;
     padding: 0 20px;
