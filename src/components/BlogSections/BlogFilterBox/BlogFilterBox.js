@@ -6,9 +6,9 @@ function BlogFilterBox() {
     <div>
          <div className='blog__filter__boxes'>
             <a href='#!'>Business (16)</a>
-            <a href='#!'>Electronics (16)</a>
-            <a href='#!'>Technology (16)</a>
-            <a href='#!'>Fashion (16)</a>
+            <a href='#!'>Electronics (10)</a>
+            <a href='#!'>Technology (13)</a>
+            <a href='#!'>Fashion (14)</a>
          </div>
     </div>
   )

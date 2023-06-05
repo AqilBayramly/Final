@@ -10,6 +10,7 @@
     flex-direction: column;
     gap: 15px;
     margin-top: 2rem;
+    width: 600px;
 }
 
 .form__input{
@@ -17,6 +18,7 @@
     height: 50px;
     padding-left: 15px;
     border: 1px solid rgb(206, 212, 218);
+    width: 100%;
 }
 
 .form__input:active{
@@ -43,7 +45,11 @@
 
 .contact__form{
     padding-top: 2.8125rem;
-    width: 600px;
+}
+
+.contact__form__photo{
+    width: 550px;
+
 }
 
 .contact__form__map>iframe{
@@ -51,10 +57,40 @@
     height: 400px;
     border: none;
 }
-.contact__form__photo{
-    width: 30%;
+
+
+@media only screen and (max-width: 1275px) {
+    .contact__form__photo{
+        width: 500px;
+    }
 }
 
+@media only screen and (max-width: 1225px) {
+    .contact__form__photo{
+        width: 460px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact__form__photo{
+        width: 440px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .contact__form__photo{
+        display: none;
+    }
+
+    .contact__form__contain{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact__form{
+        padding-bottom: 15px;
+    }
+}
 
 @media only screen and (max-width: 1100px) {
     .contact__form__map{
@@ -63,7 +99,43 @@
 }
 
 @media only screen and (max-width: 1023px) {
-    .contact__form__photo{
-        display: none;
+    .contact__form__contain{
+        max-width: 97%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact__form__inputs{
+        width: 550px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact__form__inputs{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .contact__form__inputs{
+        width: 460px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .contact__form__inputs{
+        width: 410px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .contact__form__inputs{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .contact__form__inputs{
+        width: 310px;
     }
 }

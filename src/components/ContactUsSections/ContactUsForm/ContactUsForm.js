@@ -4,7 +4,6 @@ import "./ContactUsForm.css"
 function ContactUsForm() {
   return (
     <div>
-
     <div className='contact__form__contain'>
         <form>
             <div className='contact__form'>
@@ -18,8 +17,8 @@ function ContactUsForm() {
             </div>
             </div>
         </form>
-        <div className='contact__form__photo'>
-          <img src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/store_image-570x570.webp' alt='...'></img>
+        <div>
+          <img className='contact__form__photo' src='https://demo.pocotheme.com/1/image/cache/catalog/maza/demo/mz_poco/store_image-570x570.webp' alt='...'></img>
         </div>
     </div>
 

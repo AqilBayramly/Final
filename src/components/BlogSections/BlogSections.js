@@ -6,15 +6,13 @@ import MostViewed from './MostViewed/MostViewed'
 
 function BlogSections() {
   return (
-    <div className='blog__page'>
-      <div className='blog__contents'>
+      <div className='blog__contents col-12'>
       <BlogFilterBox/>
       <div className='blog__swipers__content'>
       <LatestArticles/>
       <MostViewed/>
       </div>
       </div>
-    </div>
   )
 }
 

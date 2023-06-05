@@ -3,7 +3,6 @@ import "./LatestArticles.css"
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
@@ -15,7 +14,32 @@ function LatestArticles() {
         <div>
         <div className='latest__articles__content'>
       <>
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={2}>
+      <Swiper
+      navigation={true}
+      modules={[Navigation]}
+      className="mySwiper"
+      slidesPerView={2}
+      // breakpoints={{
+      //   0: {
+      //     slidesPerView: 1,
+      //   },
+      //   400:{
+      //     slidesPerView:1,
+      //   },
+      //   680:{
+      //     slidesPerView:1
+      //   },
+      //   860:{
+      //     slidesPerView:1
+      //   },
+      //   1050:{
+      //     slidesPerView:1
+      //   },
+      //   1300:{
+      //     slidesPerView:2
+      //   }
+      // }}
+      >
       
         <SwiperSlide>
           <div className='latest__articles__white__box'>

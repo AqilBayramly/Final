@@ -18,9 +18,9 @@ function ShopByBrand() {
         centeredSlides={false}
         spaceBetween={5}
         grabCursor={true}
-    
         modules={[]}
         className="mySwiper"
+        
         breakpoints={{
           0: {
             slidesPerView: 1,

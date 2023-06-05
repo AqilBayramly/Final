@@ -1,24 +1,21 @@
 .latest__articles__content{
     max-width: 930px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 .latest__articles__white__box{
     background-color: white;
-    /* background-color: aqua; */
-    width: 430px;
+    width: 410px;
 }
 
 .latest__articles__white__box__content{
-    max-width: 410px;
+    max-width: 96%;
     margin: 0 auto;
     padding-top: 8px;
 }
 
 .latest__articles__image{
-    width: 412px;
+    width: 390px;
 }
 
 .from__blog__yellow__box{

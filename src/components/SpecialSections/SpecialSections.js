@@ -19,13 +19,8 @@ function SpecialSections() {
           <div>
             <SpecialRightContent/>
           </div>
-
-          
         </div>
 
-
-
-        
     </div>
   )
 }
